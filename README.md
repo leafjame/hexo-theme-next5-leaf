@@ -104,8 +104,7 @@ valine:
 `valine`文档可参考：https://valine.js.org
 
 > PS：leancloud现在都需要实名认证了，如不想上传身份证，可使用谷歌的`firestore`来替代。
-
-> 参考我的这篇文章：[NexT 文章阅读量排行（热榜）功能](https://leafjame.github.io/posts/781439527.html)
+参考我的这篇文章：[NexT 文章阅读量排行（热榜）功能](https://leafjame.github.io/posts/781439527.html)
 
 - **配置leanCloud_visitors**
 
@@ -339,7 +338,7 @@ neat_js:
   - '**/fireworks.js'
 
 ```
-> **`友链`**和**`热榜`**功能，可参考我的博客
+> **友链**和**热榜**功能，可参考我的博客
 
 # 部署
 

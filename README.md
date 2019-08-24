@@ -44,26 +44,26 @@ theme: heme-next5-leaf
 ```js
 
 "hexo": "^3.9.0",
-"hexo-abbrlink": "^2.0.5",			//生成文章唯一URL插件
+"hexo-abbrlink": "^2.0.5",   //生成文章唯一URL插件
 "hexo-baidu-url-submit": "0.0.6",  //url提交插件，用于seo（非必须）
-"hexo-deployer-git": "^1.0.0",	//git插件，用于部署
-"hexo-generator-baidu-sitemap": "^0.1.6",   //百度sitemap，用于seo（非必须）
+"hexo-deployer-git": "^1.0.0",  //git插件，用于部署
+"hexo-generator-baidu-sitemap": "^0.1.6",  //百度sitemap，用于seo（非必须）
 "hexo-generator-sitemap": "^1.2.0",  // 同上
-"hexo-generator-feed": "^1.2.2",		// SSR插件（非必须）
-"hexo-generator-index-pin-top": "^0.2.2",   //用于指定文章置顶
-"hexo-generator-search": "^2.4.0",  	//本地搜索插件
-"hexo-neat": "^1.0.4",				// 压缩js、css代码的插件
+"hexo-generator-feed": "^1.2.2",  // SSR插件（非必须）
+"hexo-generator-index-pin-top": "^0.2.2",  //用于指定文章置顶
+"hexo-generator-search": "^2.4.0",  //本地搜索插件
+"hexo-neat": "^1.0.4",  // 压缩js、css代码的插件
 "hexo-permalink-pinyin": "^1.1.0",  // 中文链接转拼音的插件（非必须）
-"hexo-renderer-ejs": "^0.3.1",	// 不知道是不是自带的。。。
-"hexo-renderer-marked": "^1.0.1",	 // 不知道是不是自带的。。。
+"hexo-renderer-ejs": "^0.3.1",  // 不知道是不是自带的。。。
+"hexo-renderer-marked": "^1.0.1",  // 不知道是不是自带的。。。
 "hexo-renderer-stylus": "^0.3.3",  // 不知道是不是自带的。。。
-"hexo-server": "^0.3.3",			// 不知道是不是自带的。。。
+"hexo-server": "^0.3.3",  // 不知道是不是自带的。。。
 "hexo-symbols-count-time": "^0.6.0",  // 站点字数统计
-"hexo-tag-cloud": "^2.1.1",		//标签云 （非必须）
-"hexo-tag-dplayer": "^0.3.3",   //dplayer视频插件 （非必须）
-"hexo-wordcount": "^6.0.1",	// 字数统计插件
-"webpack-cli": "^3.3.7",		// 装exo-abbrlink时提示装的，按需下载
-"@webpack-cli/init": "^0.2.2", // 同上
+"hexo-tag-cloud": "^2.1.1",  //标签云 （非必须）
+"hexo-tag-dplayer": "^0.3.3",  //dplayer视频插件 （非必须）
+"hexo-wordcount": "^6.0.1",  // 字数统计插件
+"webpack-cli": "^3.3.7",  // 装exo-abbrlink时提示装的，按需下载
+"@webpack-cli/init": "^0.2.2",  // 同上
 ```
 > 所装插件会在站点根目录的`package.json`中列出来，核对一下是不是自己已经装过了。
 
@@ -89,7 +89,6 @@ npm install --save-dev hexo-neat@1.0.4
 
 ```js
 valine:
- valine:
   enable: true
   appid:   # your leancloud application appid
   appkey:  # your leancloud application appkey

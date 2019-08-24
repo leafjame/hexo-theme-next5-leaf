@@ -272,8 +272,8 @@ post_wordcount:
 #bitcoin: /images/bitcoin.png
 
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-wechatpay: /images/wechatpay.jpg
-alipay: /images/alipay.jpg
+wechatpay: /images/avatar.gif
+alipay: /images/avatar.gif
 
 # Declare license on posts
 post_copyright:

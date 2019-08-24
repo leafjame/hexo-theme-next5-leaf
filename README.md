@@ -42,8 +42,6 @@ theme: heme-next5-leaf
 本主题中在搭建过程中，参考了其他博客，加了挺多的新功能，所以也集成了一定的插件，所列部分如下：
 
 ```js
-
-"hexo": "^3.9.0",
 "hexo-abbrlink": "^2.0.5",   //生成文章唯一URL插件
 "hexo-baidu-url-submit": "0.0.6",  //url提交插件，用于seo
 "hexo-deployer-git": "^1.0.0",  //git插件，用于部署
@@ -54,10 +52,9 @@ theme: heme-next5-leaf
 "hexo-generator-search": "^2.4.0",  //本地搜索插件
 "hexo-neat": "^1.0.4",  // 压缩js、css代码的插件
 "hexo-permalink-pinyin": "^1.1.0",  // 中文链接转拼音的插件
-"hexo-renderer-ejs": "^0.3.1",  // 不知道是不是自带的。。。
-"hexo-renderer-marked": "^1.0.1",  // 不知道是不是自带的。。。
-"hexo-renderer-stylus": "^0.3.3",  // 不知道是不是自带的。。。
-"hexo-server": "^0.3.3",  // 不知道是不是自带的。。。
+"hexo-renderer-ejs": "^0.3.1",  // 是不是自带的？。。。
+"hexo-renderer-marked": "^1.0.1",  // 是不是自带的？。。。
+"hexo-renderer-stylus": "^0.3.3",  // 是不是自带的？。。。
 "hexo-symbols-count-time": "^0.6.0",  // 站点字数统计
 "hexo-tag-cloud": "^2.1.1",  //标签云
 "hexo-tag-dplayer": "^0.3.3",  //dplayer视频插件

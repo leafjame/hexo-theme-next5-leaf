@@ -110,8 +110,7 @@ valine:
 
 - **配置leanCloud_visitors**
 
-这是用于显示文章阅读次数的，上边所说的排行榜（热榜）功能，是基于这个来的，要同时开启。
-如果你使用`leancloud`来实现，则需要开启。在主题配置文件_config.xml中搜索`leanCloud_visitors`，配置：
+这是用于显示文章阅读次数的，上边所说的排行榜（热榜）功能，是基于这个来的，如果你使用`leancloud`来实现，则需要开启。在主题配置文件_config.xml中搜索`leanCloud_visitors`，配置：
 
 ```js
 leancloud_visitors:

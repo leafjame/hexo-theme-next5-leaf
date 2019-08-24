@@ -408,7 +408,7 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: true
+  enable: false
   appid:  # your leancloud application appid
   appkey: # your leancloud application appkey
   notify: true # mail notifier , https://github.com/xCss/Valine/wiki
@@ -578,7 +578,7 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: true
+  enable: false
   app_id:  #<app_id>
   app_key: #<app_key>
 
@@ -893,7 +893,7 @@ daovoice_app_id:
 # Tidio online chat
 # see: https://www.tidiochat.com
 tidio:
-  enable: true
+  enable: false
   key: # Public_Key
 
 pdf:
@@ -904,7 +904,7 @@ pdf:
 # Hotjar页面反馈
 # see: https://www.hotjar.com/
 hotjar:
-  enable: true
+  enable: false
   siteID: # site ID
 
 # 近期文章

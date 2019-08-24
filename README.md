@@ -7,10 +7,10 @@
 ![](https://img.shields.io/badge/hexo--generator--sitemap-v1.2.0-green)
 ![](https://img.shields.io/badge/hexo--baidu--url--submit-v0.0.6-brightgreen)
 
-**效果展示：https://leafjame.github.io/links/**
+**效果展示：https://leafjame.github.io**
 
 # 前言
-最近迷上了博客，网上也看了很多关于**github pages**的，博客有使用**Jekyll**的，有**Hexo**的，各有各的优势吧，经过比较，本人最终选择了`Hexo`，可能也是跟着~~潮流~~吧😁，看着有许多人在推崇Hexo的一款主题：**`NexT`**，然后我也就跟做了。。。极简主题，确实很不错。
+最近迷上了博客，网上也看了很多关于**github pages**的，博客有使用**`Jekyll`**的，有**`Hexo`**的，各有各的优势吧，经过比较，本人最终选择了`Hexo`，可能也是跟着~~潮流~~吧😁，看着有许多人在推崇Hexo的一款主题：**`NexT`**，然后我也就跟做了。。。极简主题，确实很不错。
 
 最近在NexT主题上进行了好一番魔改，参考的博客也很多，总算整出一些效果来。。自己看着还算顺眼吧。。
 

@@ -1,0 +1,22 @@
+.posts-expand {
+  .post-eof {
+    display: block;
+    margin: $post-eof-margin-top auto $post-eof-margin-bottom;
+    width: 8%;
+    height: 1px;
+
+    //  margin: $post-eof-margin-top auto $post-eof-margin-bottom;
+    width: 0%; //分割线长度
+    height: 0px; // 分割线高度
+
+    background: $grey-light;
+    text-align: center;
+  }
+}
+
+
+.post:last-child {
+  .post-eof.post-eof.post-eof {
+    display: none;
+  }
+}

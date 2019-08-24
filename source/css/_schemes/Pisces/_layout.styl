@@ -1,0 +1,171 @@
+.header {
+  position: relative;
+  margin: 0 auto;
+  width: $main-desktop;
+
+  +tablet() {
+    width: auto;
+  }
+  +mobile() {
+    width: auto;
+  }
+}
+
+// 修改【菜单栏】背景透明度 background: rgba(255,255,255,0.7); //0.7是透明度
+.header-inner {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 240px;
+  //background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: $box-shadow-inner;
+  border-radius: $border-radius-inner;
+
+  +desktop-large() {
+    .container & { width: 240px; }
+  }
+  +tablet() {
+    position: relative;
+    width: auto;
+    border-radius: initial;
+  }
+  +mobile() {
+    position: relative;
+    width: auto;
+    border-radius: initial;
+  }
+}
+
+.main {
+  clearfix();
+  +tablet() {
+    padding-bottom: 100px;
+  }
+  +mobile() {
+    padding-bottom: 100px;
+  }
+}
+
+.container .main-inner {
+  width: $main-desktop;
+
+  +tablet() {
+    width: auto;
+  }
+  +mobile() {
+    width: auto;
+  }
+}
+
+// 修改【内容板块】背景透明度 background: rgba(255,255,255,0.7); //0.7是透明度
+// https://www.jianshu.com/p/efbeddc5eb19
+.content-wrap {
+  float: right;
+  box-sizing: border-box;
+  padding: $content-desktop-padding;
+  width: $content-desktop;
+  //background: white;
+  background: rgba(255,255,255,0.8); //0.8是透明度
+  min-height: 700px;
+  box-shadow: $box-shadow-inner;
+  border-radius: $border-radius-inner;
+
+  +tablet() {
+    width: 100%;
+    padding: 20px;
+    border-radius: initial;
+  }
+  +mobile() {
+    width: 100%;
+    padding: 20px;
+    min-height: auto;
+    border-radius: initial;
+  }
+}
+
+// 修改【站点概况】背景透明度 background: rgba(255,255,255,0.7); //0.7是透明度
+.sidebar {
+  position: static;
+  float: left;
+  margin-top: 300px;
+  width: $sidebar-desktop;
+  //background: $body-bg-color;
+  background: rgba(255,255,255,0.8);
+  box-shadow: none;
+
+  +tablet() {
+    display: none;
+  }
+  +mobile() {
+    display: none;
+  }
+}
+
+.sidebar-toggle { display: none; }
+
+
+.footer-inner {
+  width: $main-desktop;
+  padding-left: 260px;
+
+  +tablet() {
+    width: auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  +mobile() {
+    width: auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+
+
+.sidebar-position-right {
+  .header-inner { right: 0; }
+  .content-wrap { float: left; }
+  .sidebar { float: right; }
+
+  .footer-inner {
+    padding-left: 0;
+    padding-right: 260px;
+  }
+}
+
+// 修改hexo的主题nexT中的Pisces主题宽度
+// https://blog.csdn.net/csdnSR/article/details/78300820
+// 以下为主题宽度新增代码  began ---
+header{ width: 90% !important; }
+header.post-header {
+  width: auto !important;
+}
+.container .main-inner { width: 90%; }
+.content-wrap { width: calc(100% - 260px); }
+.header {
+  +tablet() {
+    width: auto !important;
+  }
+  +mobile() {
+    width: auto !important;
+  }
+}
+.container .main-inner {
+  +tablet() {
+    width: auto !important;
+  }
+  +mobile() {
+    width: auto !important;
+  }
+}
+.content-wrap {
+  +tablet() {
+    width: 100% !important;
+  }
+  +mobile() {
+    width: 100% !important;
+  }
+}
+// 以下为主题宽度新增代码！ end ---

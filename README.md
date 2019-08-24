@@ -121,7 +121,7 @@ leancloud_visitors:
 ```
 > PS：如果你没用`leancloud`，又需要统计文章阅读量，可使用`不蒜子`提供的功能
 
-主题配置文件如下：（非必须）
+主题配置文件如下：
 
 ```js
 busuanzi_count:

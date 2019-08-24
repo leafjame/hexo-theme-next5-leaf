@@ -83,6 +83,8 @@ npm install --save-dev hexo-neat@1.0.4
 
 ### _config.yml文件
 
+下面所列的几项配置，自己用到的就配置上，默认是**没用启用**的
+
 - **配置valine评论系统**
 
 在主题配置文件`_config.xml`中搜索`valine`，找到如下配置：

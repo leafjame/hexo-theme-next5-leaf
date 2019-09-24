@@ -157,7 +157,7 @@ npm install --save-dev hexo-neat@1.0.4
 
 按需配置abbrlink、hexo-neat、Deployment等。
 
-附上**完整版**站点配置文件，供参考：
+附上完整版**站点配置文件**，供大家参考：
 
 ```js
 # Hexo Configuration

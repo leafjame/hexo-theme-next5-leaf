@@ -15,8 +15,6 @@
 
 之后在NexT主题上进行了好一番魔改，参考的博客也很多，总算整出一些效果来，自己看着还算顺眼吧，整理一下share出来，希望大家多多**star**、**fork**支持哦~
 
-> ⚠️由魔改之时至今，不敢保证所有的改动都记录下来了，所以本仓库的样式**可能**会和博客里的不一样！！！
-
 # 功能概览
 
 > 虽然这些功能网上一搜一大把，不过还是罗列一下吧，who care呢~
@@ -153,91 +151,15 @@ npm install --save-dev hexo-neat@1.0.4
 
 ### _config.yml文件
 
-下面所列的几项配置，自己用到的就配置上，默认是**没用启用**的
+- next主题配置文件
 
-- **配置valine评论系统**
-
-在主题配置文件`_config.xml`中搜索`valine`，找到如下配置：
-
-```js
-valine:
-  enable: true
-  appid:   # your leancloud application appid
-  appkey:  # your leancloud application appkey
-  notify: true # mail notifier , https://github.com/xCss/Valine/wiki
-  verify: false # Verification code
-  placeholder: '来都来了，不说点什么嘛~🤒'  # comment box placeholder
-  avatar: mm # gravatar style
-  guest_info: nick,mail,link # custom comment header
-  pageSize: 10 # pagination size
-```
-`valine`后台使用的是`leancloud`做数据存储的，所以使用它之前，你得在[leancloud](https://leancloud.cn/)官网注册，得到`appid `、`appkey `，然后填入上述配置文件中。
-
-`valine`文档可参考：https://valine.js.org
-
-> PS：leancloud现在都需要实名认证了，如不想上传身份证，可使用谷歌的`firestore`来替代。参考我的这篇文章：[NexT 文章阅读量排行（热榜）功能](https://leafjame.github.io/posts/781439527.html)
-
-- **配置leanCloud_visitors**
-
-这是用于显示文章阅读次数的，上边所说的排行榜（热榜）功能，是基于这个来的，如果你使用`leancloud`来实现，则需要开启。在主题配置文件_config.xml中搜索`leanCloud_visitors`，配置：
-
-```js
-leancloud_visitors:
-  enable: true
-  app_id:  # app_id可使用valine时申请的
-  app_key: # app_key可使用valine时申请的
-```
-> PS：如果你没用`leancloud`，又需要统计文章阅读量，可使用`不蒜子`提供的功能
-
-主题配置文件如下：
-
-```js
-busuanzi_count:
-  # count values only if the other configs are false
-  enable: true
-  # custom uv span for the whole site
-  site_uv: true
-  site_uv_header: <i class="fa fa-user"></i>访问人数
-  site_uv_footer: 人次
-  # custom pv span for the whole site
-  site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i>总访问量
-  site_pv_footer: 次
-  # custom pv span for one page only
-  page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i> 浏览
-  page_pv_footer: 次
-```
-
-- tidio在线聊天
-
-主题配置文件中，默认是关闭的，使用可开启。需要在下边的网址注册
-
-```js
-# Tidio online chat
-# see: https://www.tidiochat.com
-tidio:
-  enable: true
-  key:  # Public_Key
-```
-
-- 页面反馈功能
-
-使用可可开启，也需要注册，下边有网址。
-
-```js
-# Hotjar页面反馈
-# see: https://www.hotjar.com/
-hotjar:
-  enable: true
-  siteID:  # site ID
-```
+在这里可配置：valine评论系统、leanCloud_visitors、busuanzi_count、tidio在线聊天、hotjar页面反馈功能等等。PS：部分功能需要在相应的网站进行注册。
 
 - hexo站点配置文件
 
-站点配置按需修改。比如要开启文章URl链接唯一功能的，则需要修改`permalink`，再增加`abbrlink`的相关配置
+可配置：abbrlink、hexo-neat、Deployment等其它信息。
 
-下面附上**完整版**站点配置文件，供参考：
+附上**完整版**站点配置文件，供参考：
 
 ```js
 # Hexo Configuration
@@ -409,10 +331,10 @@ neat_js:
   - '**/fireworks.js'
 
 ```
-> **友链**和**热榜**功能，可参考我的博客
+> 相关文章可参考[我的博客](https://leafjame.github.io)
 
 # 部署
 
-做完以上操作后，使用`hexo`命令三连，打开博客，看下效果是不是有了呢~
+做完以上操作后，使用`hexo`命令，打开博客即可看到效果！
 
 > PS： **使用过程中如发现什么问题，请提issue或者在博客给我反馈哦~由于博客魔改，配置了挺多的东西，现在share的时候，也许有某个地方忘了、或者提供不对的地方，还请谅解！**

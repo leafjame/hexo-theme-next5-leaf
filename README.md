@@ -15,7 +15,7 @@
 
 网上有很多关于**github pages**博客搭建的文章，使用的比较多的是**Jekyll、hexo**，github官方推荐的是前者，经过比较，本人还是选择了**Hexo**，算跟着~~潮流~~走嘛？许多人推崇Hexo的一款主题：**NexT**，然后我也跟着做了，主题极简，确实很不错。
 
-clone后好一番魔改，也算整出了一些效果吧，自己看着还算顺眼，在这share一下，希望大家多多**star**、**fork**支持哦~
+clone后一顿魔改，整出了一些自己看着还是顺眼的效果吧，在这share一下，希望大家**star**和**fork**！如有疑问，请提issue或者在博客给我反馈哦~
 
 # 功能概览
 
@@ -326,10 +326,8 @@ neat_js:
   - '**/fireworks.js'
 
 ```
-> 相关文章可参考[我的博客](https://leafjame.github.io)
+> 博客美化教程可参考[我的博客](https://leafjame.github.io)
 
 # 部署
 
-使用`hexo`相关命令，打开浏览器即可看到效果！
-
-> PS：使用过程中如发现什么问题，请提issue或者在博客给我反馈哦~
+控制台`hexo clean && hexo g && hexo s`三连，浏览器输入`http://localhost:4000/`即可看到效果！

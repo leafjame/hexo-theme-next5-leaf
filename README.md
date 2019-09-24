@@ -6,6 +6,7 @@
 ![](https://img.shields.io/badge/hexo--symbols--count--time-v0.6.0-blue)
 ![](https://img.shields.io/badge/hexo--generator--sitemap-v1.2.0-green)
 ![](https://img.shields.io/badge/hexo--baidu--url--submit-v0.0.6-brightgreen)
+![](https://img.shields.io/badge/hexo--related--popular--post-3.0.6-brightgreen)
 
 **效果展示：https://leafjame.github.io**
 
@@ -17,7 +18,7 @@
 
 # 功能概览
 
-> 虽然这些功能网上一搜一大把，不过还是罗列一下吧，who care呢（皮一下😜）~
+> 虽然这些功能网上一搜一大把，不过还是罗列一下吧，who care（皮一下~）！
 
 **已完成：** 
 <br/>

@@ -90,9 +90,7 @@
 
 # 安装教程
 
-直接`Download ZIP`解压后，放到`hexo`目录`themes`主题下即可。
-
-或者使用 git命令，进入到本地`hexo`目录：
+直接`Download ZIP`解压后，放到`hexo`目录`themes`主题下即可。或者使用 git命令，进入到本地`hexo`目录：
 
 ```shell
 git clone https://github.com/leafjame/hexo-theme-next5-leaf.git /themes/leaf

@@ -11,13 +11,13 @@
 
 **效果：[点我查看](https://leafjame.github.io)**
 
-# 前言
+## 前言
 
 网上有很多关于**github pages**博客搭建的文章，使用的比较多的是**Jekyll、hexo**，github官方推荐的是前者，经过比较，本人还是选择了**Hexo**，算跟着~~潮流~~走嘛？许多人推崇Hexo的一款主题：**NexT**，然后我也跟着做了，主题极简，确实很不错。
 
 clone后一顿魔改，整出了一些自己看着还是顺眼的效果吧，在这share一下，希望大家**star**和**fork**！如有疑问，请提issue或者在博客给我反馈哦~
 
-# 功能概览
+## 功能
 
 > 虽然这些功能网上一搜一大把，不过还是罗列一下吧，who care（皮一下~）！
 
@@ -89,7 +89,7 @@ clone后一顿魔改，整出了一些自己看着还是顺眼的效果吧，在
 </br>
 ...
 
-# 安装教程
+## 安装
 
 `Download ZIP`解压后，放到`hexo`目录`themes`主题下即可。或者使用 git命令，进入到本地`hexo`目录：
 
@@ -103,9 +103,9 @@ git clone https://github.com/leafjame/hexo-theme-next5-leaf.git /themes/leaf
 theme: leaf
 ```
 
-## 依赖环境
+### 依赖环境
 
-### 插件
+#### 插件
 
 - 插件列表
 
@@ -147,7 +147,7 @@ npm install --save-dev hexo-neat
 npm install --save-dev hexo-neat@1.0.4
 ```
 
-### _config.yml文件
+#### _config.yml文件
 
 - next主题配置文件
 
@@ -328,6 +328,6 @@ neat_js:
 ```
 > 博客美化教程可参考[我的博客](https://leafjame.github.io)
 
-# 部署
+## 部署
 
 控制台`hexo clean && hexo g && hexo s`三连，浏览器输入`http://localhost:4000/`即可看到效果！

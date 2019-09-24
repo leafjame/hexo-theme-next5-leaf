@@ -7,6 +7,7 @@
 ![](https://img.shields.io/badge/hexo--generator--sitemap-v1.2.0-green)
 ![](https://img.shields.io/badge/hexo--baidu--url--submit-v0.0.6-brightgreen)
 ![](https://img.shields.io/badge/hexo--related--popular--post-3.0.6-brightgreen)
+![](https://img.shields.io/badge/hexo--douban-1.1.3-green)
 
 **效果展示：https://leafjame.github.io**
 

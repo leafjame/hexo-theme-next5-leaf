@@ -13,9 +13,9 @@
 
 # 前言
 
-自2019年七夕起，我便痴迷于博客不能自拔。网上看了很多关于**github pages**博客搭建的文章，有使用**Jekyll**的，有使用**Hexo**的...各有各的优势。经过比较，本人最终选择了**Hexo**，不知道算不算跟着~~潮流~~走，看着有许多人在推崇Hexo的一款主题：**NexT**，然后我也跟着做了，极简主题，确实很不错。
+网上有很多关于**github pages**博客搭建的文章，使用的比较多的是**Jekyll、hexo**，github官方推荐的是前者，经过比较，本人还是选择了**Hexo**，算跟着~~潮流~~走嘛？许多人推崇Hexo的一款主题：**NexT**，然后我也跟着做了，主题极简，确实很不错。
 
-之后在NexT主题上进行了好一番魔改，参考的博客也很多，总算整出一些效果来，自己看着还算顺眼吧，整理一下share出来，希望大家多多**star**、**fork**支持哦~
+clone之后在上边好一番魔改，也算整出了一些效果吧，自己看着还算顺眼，整理出来share一下，希望大家多多**star**、**fork**支持哦~
 
 # 功能概览
 
@@ -89,17 +89,15 @@
 </br>
 ...
 
-
 # 安装教程
 
-直接`Download ZIP`解压后，放到`hexo`目录`themes`主题下即可。或者使用 git命令，进入到本地`hexo`目录：
+`Download ZIP`解压后，放到`hexo`目录`themes`主题下即可。或者使用 git命令，进入到本地`hexo`目录：
 
 ```shell
 git clone https://github.com/leafjame/hexo-theme-next5-leaf.git /themes/leaf
 ```
-将`hexo-theme-next5-leaf`放到**themes**目录下，名字可修改为你自己想要的。
 
-然后在站点的配置文件`_config.yml`中指定所使用的`theme`即可，如：
+将其放到**themes**目录下，名字自定义。然后在站点的配置文件`_config.yml`中指定所使用的`theme`：
 
 ```js
 theme: leaf
@@ -153,11 +151,11 @@ npm install --save-dev hexo-neat@1.0.4
 
 - next主题配置文件
 
-在这里可配置：valine评论系统、leanCloud_visitors、busuanzi_count、tidio在线聊天、hotjar页面反馈功能等等。PS：部分功能需要在相应的网站进行注册。
+按需配置valine、leanCloud_visitors、busuanzi_count、tidio、hotjar等。PS：部分功能需注册后方可使用。
 
 - hexo站点配置文件
 
-可配置：abbrlink、hexo-neat、Deployment等其它信息。
+按需配置abbrlink、hexo-neat、Deployment等。
 
 附上**完整版**站点配置文件，供参考：
 
@@ -169,9 +167,9 @@ npm install --save-dev hexo-neat@1.0.4
 # Site
 title: Leaf's Blog
 subtitle: 因心造境，风云由我！
-signature: Java狮 北漂男 摄影 旅行 赚钱 # 解决开启theme.seo后，description描述不显示
-description: Java狮 北漂男 摄影 旅行 赚钱 ITer
-keywords: leafjame 北宸 Java 程序员 北漂 北京 旅行 摄像 hexo nexT github 教程 demo
+signature: Java狮 北漂男 摄影 旅行 赚钱
+description: Java狮 北漂男 摄影 旅行
+keywords: leafjame 北宸 Java 程序员 北漂
 author: 北宸
 language: zh-Hans
 timezone:
@@ -207,7 +205,6 @@ code_dir: downloads/code
 i18n_dir: :lang
 #skip_render:
 
-# 为部署到github仓库后的项目添加README.md文件
 skip_render: README.md
 
 # Writing
@@ -296,13 +293,11 @@ feed:
   hub:
   content:
 
-# 中文链接转拼音 npm i hexo-permalink-pinyin --save
 # https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md
 permalink_pinyin:
   enable: false
   separator: '-' # default: '-'
 
-# hexo-neat 博文压缩
 # https://blog.csdn.net/lewky_liu/article/details/82432003
 # https://github.com/rozbo/hexo-neat
 neat_enable: true
@@ -335,6 +330,6 @@ neat_js:
 
 # 部署
 
-做完以上操作后，使用`hexo`命令，打开博客即可看到效果！
+使用`hexo`相关命令，打开浏览器即可看到效果！
 
-> PS： **使用过程中如发现什么问题，请提issue或者在博客给我反馈哦~由于博客魔改，配置了挺多的东西，现在share的时候，也许有某个地方忘了、或者提供不对的地方，还请谅解！**
+> PS：使用过程中如发现什么问题，请提issue或者在博客给我反馈哦~

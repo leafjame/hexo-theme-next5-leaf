@@ -105,7 +105,7 @@ menu:
   about: /about/ || user
   #schedule: /schedule/ || calendar
   #commonweal: /404/ || heartbeat
-  links: /links/ || link
+  #links: /links/ || link
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -275,7 +275,7 @@ post_wordcount:
 #bitcoin: /images/bitcoin.png
 
 reward_comment: 坚持原创技术分享，感谢您的支持和鼓励！
-wechatpay: /ifalsemages/wechatpay.jpg
+wechatpay: /images/wechatpay.jpg
 alipay: /images/alipay.jpg
 
 # Declare license on posts

@@ -13,7 +13,7 @@
 
 ## 前言
 
-  网上有很多关于**github pages**博客搭建的文章，使用的比较多的是**Jekyll、hexo**。github官方推荐的是前者，经过比较，本人还是选择了**Hexo**，因为有许多人推崇的一款主题：**NexT**。
+    网上有很多关于**github pages**博客搭建的文章，使用的比较多的是**Jekyll、hexo**。github官方推荐的是前者，经过比较，本人还是选择了**Hexo**，因为有许多人推崇的一款主题：**NexT**。
 
 clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大家**star**和**fork**！如有疑问，请提issue或着在博客给我反馈。
 
@@ -89,15 +89,15 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 
 1. `Download ZIP`解压后，放到`hexo`目录`themes`主题下即可。或者使用 git命令，进入到本地`hexo`目录：
 
-  ```shell
-  git clone https://github.com/leafjame/hexo-theme-next5-leaf.git themes/leaf
-  ```
+    ```shell
+    git clone https://github.com/leafjame/hexo-theme-next5-leaf.git themes/leaf
+    ```
 
 2. 将其放到**themes**目录下，名字自定义。然后在站点的配置文件`_config.yml`中指定所使用的`theme`：
 
-  ```js
-  theme: leaf
-  ```
+    ```js
+    theme: leaf
+    ```
 
 ### 依赖环境
 
@@ -130,7 +130,7 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
   "webpack-cli": "^3.3.7",  // 装hexo-abbrlink时提示装的，按需下载
   "@webpack-cli/init": "^0.2.2",  // 同上
   ```
-> 所装插件信息位于站点根目录的`package.json`文件，核对一下自己是否已经装过。
+  > 所装插件信息位于站点根目录的`package.json`文件，核对一下自己是否已经装过。
 
 - 安装插件命令
 

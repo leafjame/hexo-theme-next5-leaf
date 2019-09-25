@@ -149,7 +149,9 @@ npm install --save-dev hexo-neat@1.0.4
 
 - next主题配置文件
 
-按需配置valine、leanCloud、busuanzi、tidio、hotjar、轮播图、文章推荐、点击特效、自定义标签等。PS：部分功能需注册后方可使用。
+按需配置valine、leanCloud、busuanzi、tidio、hotjar、轮播图、文章推荐、点击特效、自定义标签等。
+
+> PS：部分功能需注册后方可使用。
 
 - hexo站点配置文件
 
@@ -341,4 +343,4 @@ douban:
 
 控制台`hexo clean && hexo g && hexo s`三连，浏览器输入`http://localhost:4000/`即可看到效果！
 
-> 博客美化教程可参考[我的小站](https://leafjame.github.io)
+> 美化教程可参考 [我的博客](https://leafjame.github.io)

@@ -157,8 +157,12 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 - hexo站点配置文件
 
   按需配置abbrlink、hexo-neat、Deployment等。
+  
+## 部署
 
-&#x261f;&#x261f; 附上完整版**站点配置文件**，供大家参考 &#x261f;&#x261f;
+  控制台`hexo clean && hexo g && hexo s`三连，浏览器输入`http://localhost:4000/`即可看到效果！
+
+&#x27a4; 附上完整版**站点配置文件**，供大家参考 &#x261f;&#x261f;
 
 ```js
 # Hexo Configuration
@@ -339,7 +343,3 @@ douban:
   timeout: 10000 # 爬取数据的超时时间
 
 ```
-
-## 部署
-
-  控制台`hexo clean && hexo g && hexo s`三连，浏览器输入`http://localhost:4000/`即可看到效果！

@@ -9,7 +9,7 @@
 ![](https://img.shields.io/badge/hexo--related--popular--post-3.0.6-brightgreen)
 ![](https://img.shields.io/badge/hexo--douban-1.1.3-green)
 
-**效果：[点我查看](https://leafjame.github.io)**
+**效果预览：[点我](https://leafjame.github.io)**
 
 ## 前言
 
@@ -342,5 +342,3 @@ douban:
 ## 部署
 
 控制台`hexo clean && hexo g && hexo s`三连，浏览器输入`http://localhost:4000/`即可看到效果！
-
-> 美化教程可参考 [我的博客](https://leafjame.github.io)

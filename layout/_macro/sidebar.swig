@@ -143,7 +143,6 @@
                   </li>
                 {% endfor %}
               </ul>
-              {% include '../_custom/sidebar.swig' %}
             </div>
           {% endif %}
 
@@ -157,7 +156,7 @@
                 <ul class="links-of-blogroll-list">
                   {% set posts = site.posts.sort('-date') %}
                   {% for post in posts.slice('0', '5') %}
-                    <li>
+                    <li class='my-links-of-blogroll-li'>
                       <a href="{{ url_for(post.path) }}" title="{{ post.title }}" target="_blank">{{ post.title }}</a>
                     </li>
                   {% endfor %}
@@ -166,7 +165,15 @@
           {% endif %}
           <!--近期文章版块 end-->
 
-          {% include '../_custom/sidebar.swig' %}
+          {% if theme.diy_time.clock %}
+              <!-- canvas粒子时钟 -->
+              {% include '../_custom/clock.swig' %}
+          {% endif %}
+          {% if theme.diy_time.runtime %}
+              <!-- 网站运行时间 -->
+              {% include '../_custom/runtime.swig' %}
+          {% endif %}
+
         </div>
       </section>
 
@@ -199,6 +206,11 @@
             <span id="scrollpercent"><span>0</span>%</span>
           {% endif %}
         </div>
+      {% endif %}
+
+      {% if theme.google_ads.enable and theme.google_ads.sidebar_ads %}
+         <!-- 侧边栏谷歌广告 -->
+         {% include '../_custom/google_adsense.swig' %}
       {% endif %}
 
       <!-- 标签云 -->

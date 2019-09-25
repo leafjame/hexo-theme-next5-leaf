@@ -237,7 +237,7 @@
           -->
 
           {% if theme.post_wordcount.wordcount or theme.post_wordcount.min2read %}
-            <div class="post-wordcount">
+            <span class="post-wordcount">
               {% if theme.post_wordcount.wordcount %}
                 {% if not theme.post_wordcount.separated_meta %}
                   <span class="post-meta-divider">|</span>
@@ -268,7 +268,7 @@
                   {{ min2read(post.content) }} 分钟
                 </span>
               {% endif %}
-            </div>
+            </span>
           {% endif %}
 
           <!-- 隐藏文章内标题下，内容描述
@@ -346,8 +346,20 @@
         {% endif %}
       {% else %}
         {{ post.content }}
+
+        {% if theme.google_ads.enable and theme.google_ads.post_ads %}
+           <!-- 文章正文下方引入谷歌广告 -->
+           {% include '../_custom/google_adsense.swig' %}
+        {% endif %}
+
       {% endif  %}
     </div>
+
+      <!-- 相关文章推荐 -->
+     {% if theme.related_posts.enable and (theme.related_posts.display_in_home or not is_index) %}
+          {% include 'post-related.swig' with { post: post } %}
+     {% endif %}
+
     {#####################}
     {### END POST BODY ###}
     {#####################}
@@ -396,6 +408,7 @@
         <div class="post-widgets">
         {% if theme.rating.enable %}
           <div class="wp_rating">
+            <div style="color:rgba(0,0,0,.75);font-size:13px;letter-spacing:4px;margin-bottom:5px;">(&gt;看完记得五星好评哦亲&lt;)</div>
             <div id="wpac-rating"></div>
           </div>
         {% endif %}

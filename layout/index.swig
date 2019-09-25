@@ -14,6 +14,10 @@
 {% endblock %}
 
 {% block content %}
+
+  <!--轮播图-->
+  {% include '_macro/carousel.swig' %}
+
   <section id="posts" class="posts-expand">
     {% for post in page.posts %}
       {{ post_template.render(post, true) }}

@@ -36,15 +36,28 @@
         {% if page.type === "tags" %}
           <div class="tag-cloud">
 
-            <!-- 目前共计xxx个标签-->
             <div class="tag-cloud-title">
                 {{ _p('counter.tag_cloud', site.tags.length) }}
             </div>
 
             <div class="tag-cloud-tags">
-              {{ tagcloud({min_font: 12, max_font: 30, amount: 300, color: true, start_color: '#ccc', end_color: '#111'}) }}
+              {{ tagcloud({min_font: 10, max_font: 15, amount: 300, color: true, start_color: '#ccc', end_color: '#111'}) }}
             </div>
           </div>
+
+          {% if theme.tagcloud.type == 'tagcanvas' %}
+               {# hexo-tag-cloud插件球型云标签 #}
+               {% include 'tagcanvas.swig' %}
+          {% elif theme.tagcloud.type == 'color' %}
+               {# 彩色标签页 #}
+               {% include 'tag-color.swig' %}
+          {% elif theme.tagcloud.type == 'love' %}
+               {# 自定义爱心标签云 #}
+               {% include 'tag-love.swig' %}
+          {% elif theme.tagcloud.type == 'bubble' %}
+               {# 自定义球型气泡标签云 #}
+               {% include 'tag-bubble.swig' %}
+          {% endif %}
 
         {% elif page.type === 'categories' %}
           <div class="category-all-page">

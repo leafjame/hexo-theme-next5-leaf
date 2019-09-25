@@ -5,7 +5,7 @@
 
     <div id="links">
         <style>
-
+            /* 在custom.styl中定义
             #links{
                margin-top: 5rem;
             }
@@ -115,7 +115,7 @@
                 background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
                 margin: inherit;
                 }
-            }
+            /*
         </style>
         <div class="links-content">
             <div class="link-navigation">

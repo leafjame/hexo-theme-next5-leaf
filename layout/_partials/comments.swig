@@ -71,3 +71,8 @@
   {% endif %}
 
 {% endif %}
+
+{% if theme.google_ads.enable and theme.google_ads.comments_ads %}
+  <!-- 评论区谷歌广告 -->
+  {% include '../_custom/google_adsense.swig' %}
+{% endif %}

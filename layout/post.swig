@@ -22,6 +22,10 @@
         {% include '_partials/share/add-this.swig' %}
       {% elseif theme.duoshuo_shortname and theme.duoshuo_share %}
         {% include '_partials/share/duoshuo_share.swig' %}
+
+      {% elseif theme.share_js %}
+         {% include '_partials/share/sharejs.swig' %}
+
       {% endif %}
     </div>
   </div>

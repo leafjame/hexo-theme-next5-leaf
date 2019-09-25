@@ -10,11 +10,13 @@ menu:
   home: 首页
   top: 热榜
   archives: 归档
+  movies: 电影
   categories: 分类
   tags: 标签
   about: 关于
   search: 搜索
   schedule: 日程表
+  xiaohutong: 胡同
   sitemap: 站点地图
   commonweal: 公益404
   links: 友链
@@ -32,9 +34,9 @@ post:
   read_more: 阅读全文
   untitled: 未命名
   toc_empty: 此文章未包含目录
-  visitors: 阅读次数
-  wordcount: 字数统计
-  min2read: 阅读时长
+  visitors: 浏览 #阅读次数
+  wordcount: 字数 #统计
+  min2read: 时长 #阅读时长
   totalcount: Site words total count
   copyright:
     author: 本文作者
@@ -65,10 +67,12 @@ counter:
   archive_posts:
     zero: 暂无日志。
     one: 目前共计 1 篇日志。
-    other: "目前共计 %d 篇日志。"
+#    other: "目前共计 %d 篇日志。"
+    other: "共计 %d 篇文章。"
 
 state:
-  posts: 日志
+#  posts: 日志
+  posts: 文章
   pages: 页面
   tags: 标签
   categories: 分类
@@ -84,7 +88,7 @@ cheers:
   great: 非常好
   excellent: 太棒了
 
-keep_on: 继续努力。
+keep_on: 继续努力！
 
 symbol:
   comma: '， '

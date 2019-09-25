@@ -13,7 +13,7 @@
 
 ## 前言
 
-    网上有很多关于**github pages**博客搭建的文章，使用的比较多的是**Jekyll、hexo**。github官方推荐的是前者，经过比较，本人还是选择了**Hexo**，因为有许多人推崇的一款主题：**NexT**。
+   网上有很多关于**github pages**博客搭建的文章，使用的比较多的是**Jekyll、hexo**。github官方推荐的是前者，经过比较，本人还是选择了**Hexo**，因为有许多人推崇的一款主题：**NexT**。
 
 clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大家**star**和**fork**！如有疑问，请提issue或着在博客给我反馈。
 
@@ -158,7 +158,7 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 
   按需配置abbrlink、hexo-neat、Deployment等。
 
-附上完整版**站点配置文件**，供大家参考：
+&#x261f;&#x261f; 附上完整版**站点配置文件**，供大家参考 &#x261f;&#x261f;
 
 ```js
 # Hexo Configuration

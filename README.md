@@ -13,7 +13,7 @@
 
 ## 前言
 
-网上有很多关于**github pages**博客搭建的文章，使用的比较多的是**Jekyll、hexo**。github官方推荐的是前者，经过比较，本人还是选择了**Hexo**，因为有许多人推崇的一款主题：**NexT**。
+  网上有很多关于**github pages**博客搭建的文章，使用的比较多的是**Jekyll、hexo**。github官方推荐的是前者，经过比较，本人还是选择了**Hexo**，因为有许多人推崇的一款主题：**NexT**。
 
 clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大家**star**和**fork**！如有疑问，请提issue或着在博客给我反馈。
 
@@ -89,15 +89,15 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 
 1. `Download ZIP`解压后，放到`hexo`目录`themes`主题下即可。或者使用 git命令，进入到本地`hexo`目录：
 
-```shell
-git clone https://github.com/leafjame/hexo-theme-next5-leaf.git themes/leaf
-```
+  ```shell
+  git clone https://github.com/leafjame/hexo-theme-next5-leaf.git themes/leaf
+  ```
 
 2. 将其放到**themes**目录下，名字自定义。然后在站点的配置文件`_config.yml`中指定所使用的`theme`：
 
-```js
-theme: leaf
-```
+  ```js
+  theme: leaf
+  ```
 
 ### 依赖环境
 
@@ -107,43 +107,44 @@ theme: leaf
 
   本主题中在搭建过程中，集成了一定的插件，所列部分如下：
 
-```js
-"hexo-abbrlink": "^2.0.5",   //生成文章唯一URL插件
-"hexo-baidu-url-submit": "0.0.6",  //url提交插件，用于seo
-"hexo-deployer-git": "^1.0.0",  //git插件，用于部署
-"hexo-douban": "^1.1.3", //豆瓣读书、电影插件
-"hexo-generator-baidu-sitemap": "^0.1.6",  //百度sitemap，用于seo
-"hexo-generator-sitemap": "^1.2.0",  // 同上
-"hexo-generator-feed": "^1.2.2",  // SSR插件
-"hexo-generator-index-pin-top": "^0.2.2",  //用于指定文章置顶
-"hexo-generator-search": "^2.4.0",  //本地搜索插件
-"hexo-neat": "^1.0.4",  // 压缩js、css代码的插件
-"hexo-permalink-pinyin": "^1.1.0",  // 中文链接转拼音的插件
-"hexo-related-popular-posts": "^3.0.6",  // 相关文章推荐
-"hexo-renderer-ejs": "^0.3.1",  // 是不是自带的？。。。
-"hexo-renderer-marked": "^1.0.1",  // 是不是自带的？。。。
-"hexo-renderer-stylus": "^0.3.3",  // 是不是自带的？。。。
-"hexo-symbols-count-time": "^0.6.0",  // 站点字数统计
-"hexo-tag-cloud": "^2.1.1",  //标签云
-"hexo-tag-dplayer": "^0.3.3",  //dplayer视频插件
-"hexo-wordcount": "^6.0.1",  // 字数统计插件
-"webpack-cli": "^3.3.7",  // 装hexo-abbrlink时提示装的，按需下载
-"@webpack-cli/init": "^0.2.2",  // 同上
-```
+  ```js
+  "hexo-abbrlink": "^2.0.5",   //生成文章唯一URL插件
+  "hexo-baidu-url-submit": "0.0.6",  //url提交插件，用于seo
+  "hexo-deployer-git": "^1.0.0",  //git插件，用于部署
+  "hexo-douban": "^1.1.3", //豆瓣读书、电影插件
+  "hexo-generator-baidu-sitemap": "^0.1.6",  //百度sitemap，用于seo
+  "hexo-generator-sitemap": "^1.2.0",  // 同上
+  "hexo-generator-feed": "^1.2.2",  // SSR插件
+  "hexo-generator-index-pin-top": "^0.2.2",  //用于指定文章置顶
+  "hexo-generator-search": "^2.4.0",  //本地搜索插件
+  "hexo-neat": "^1.0.4",  // 压缩js、css代码的插件
+  "hexo-permalink-pinyin": "^1.1.0",  // 中文链接转拼音的插件
+  "hexo-related-popular-posts": "^3.0.6",  // 相关文章推荐
+  "hexo-renderer-ejs": "^0.3.1",  // 是不是自带的？。。。
+  "hexo-renderer-marked": "^1.0.1",  // 是不是自带的？。。。
+  "hexo-renderer-stylus": "^0.3.3",  // 是不是自带的？。。。
+  "hexo-symbols-count-time": "^0.6.0",  // 站点字数统计
+  "hexo-tag-cloud": "^2.1.1",  //标签云
+  "hexo-tag-dplayer": "^0.3.3",  //dplayer视频插件
+  "hexo-wordcount": "^6.0.1",  // 字数统计插件
+  "webpack-cli": "^3.3.7",  // 装hexo-abbrlink时提示装的，按需下载
+  "@webpack-cli/init": "^0.2.2",  // 同上
+  ```
 > 所装插件信息位于站点根目录的`package.json`文件，核对一下自己是否已经装过。
 
 - 安装插件命令
 
   在站点根目录下，使用：
 
-```nodejs
-npm install --save-dev hexo-neat
-```
+  ```nodejs
+  npm install --save-dev hexo-neat
+  ```
+
   即可安装hexo-neat插件，其他的插件安装方式类似。默认是安装最新版，如要指定版本号，可使用：
 
-```nodejs
-npm install --save-dev hexo-neat@1.0.4
-```
+  ```nodejs
+  npm install --save-dev hexo-neat@1.0.4
+  ```
 
 #### _config.yml文件
 
@@ -151,13 +152,13 @@ npm install --save-dev hexo-neat@1.0.4
 
   按需配置valine、leanCloud、busuanzi、tidio、hotjar、轮播图、文章推荐、点击特效、自定义标签等。
 
-> PS：部分功能需注册后方可使用。
+  > PS：部分功能需注册后方可使用。
 
 - hexo站点配置文件
 
   按需配置abbrlink、hexo-neat、Deployment等。
 
-  附上完整版**站点配置文件**，供大家参考：
+附上完整版**站点配置文件**，供大家参考：
 
 ```js
 # Hexo Configuration

@@ -19,7 +19,7 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 
 ## 功能
 
-  > 以下功能网上一搜一大把，不过还是为大家整理下本博客的情况，who care（皮一下~）！
+  > 以下功能网上一搜一大把，不过还是为大家整理了下本博客的情况，who care（皮一下~）！
 
 **已完成：** 
 <br/>
@@ -100,9 +100,7 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
     theme: leaf
     ```
 
-### 依赖环境
-
-#### 插件
+### 依赖插件
 
 - 插件列表
 
@@ -147,7 +145,7 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
   npm install --save-dev hexo-neat@1.0.4
   ```
 
-#### 配置文件
+### 配置文件
 
 - next主题配置文件_config.yml
 
@@ -157,7 +155,7 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 
 - hexo站点配置文件_config.yml
 
-  按需配置abbrlink、hexo-neat、Deployment等。
+  按需配置abbrlink、highlight、deploy、douban、hexo-neat等。
   
 ## 部署
 

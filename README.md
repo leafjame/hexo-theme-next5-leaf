@@ -87,13 +87,13 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 
 ## 安装
 
-`Download ZIP`解压后，放到`hexo`目录`themes`主题下即可。或者使用 git命令，进入到本地`hexo`目录：
+1. `Download ZIP`解压后，放到`hexo`目录`themes`主题下即可。或者使用 git命令，进入到本地`hexo`目录：
 
 ```shell
 git clone https://github.com/leafjame/hexo-theme-next5-leaf.git themes/leaf
 ```
 
-将其放到**themes**目录下，名字自定义。然后在站点的配置文件`_config.yml`中指定所使用的`theme`：
+2. 将其放到**themes**目录下，名字自定义。然后在站点的配置文件`_config.yml`中指定所使用的`theme`：
 
 ```js
 theme: leaf
@@ -105,7 +105,7 @@ theme: leaf
 
 - 插件列表
 
-本主题中在搭建过程中，集成了一定的插件，所列部分如下：
+  本主题中在搭建过程中，集成了一定的插件，所列部分如下：
 
 ```js
 "hexo-abbrlink": "^2.0.5",   //生成文章唯一URL插件
@@ -134,12 +134,12 @@ theme: leaf
 
 - 安装插件命令
 
-在站点根目录下，使用：
+  在站点根目录下，使用：
 
 ```nodejs
 npm install --save-dev hexo-neat
 ```
-即可安装hexo-neat插件，其他的插件安装方式类似。默认是安装最新版，如要指定版本号，可使用：
+  即可安装hexo-neat插件，其他的插件安装方式类似。默认是安装最新版，如要指定版本号，可使用：
 
 ```nodejs
 npm install --save-dev hexo-neat@1.0.4
@@ -149,15 +149,15 @@ npm install --save-dev hexo-neat@1.0.4
 
 - next主题配置文件
 
-按需配置valine、leanCloud、busuanzi、tidio、hotjar、轮播图、文章推荐、点击特效、自定义标签等。
+  按需配置valine、leanCloud、busuanzi、tidio、hotjar、轮播图、文章推荐、点击特效、自定义标签等。
 
 > PS：部分功能需注册后方可使用。
 
 - hexo站点配置文件
 
-按需配置abbrlink、hexo-neat、Deployment等。
+  按需配置abbrlink、hexo-neat、Deployment等。
 
-附上完整版**站点配置文件**，供大家参考：
+  附上完整版**站点配置文件**，供大家参考：
 
 ```js
 # Hexo Configuration
@@ -341,4 +341,4 @@ douban:
 
 ## 部署
 
-控制台`hexo clean && hexo g && hexo s`三连，浏览器输入`http://localhost:4000/`即可看到效果！
+  控制台`hexo clean && hexo g && hexo s`三连，浏览器输入`http://localhost:4000/`即可看到效果！

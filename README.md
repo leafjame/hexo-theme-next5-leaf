@@ -11,15 +11,13 @@
 
 **效果预览：[点我](https://leafjame.github.io)**
 
-## 前言
-
 &emsp;&emsp;网上有很多关于**github pages**博客搭建的文章，使用的比较多的是**Jekyll、hexo**。github官方推荐的是前者，经过比较，本人还是选择了**Hexo**，因为有许多人推崇的一款主题：**NexT**。
 
 clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大家**star**和**fork**！如有疑问，请提issue或着在博客给我反馈。
 
 ## 功能
 
-> 虽然这些功能网上一搜一大把，不过还是罗列一下吧，who care（皮一下~）！
+  > 以下功能网上一搜一大把，不过还是为大家整理下本博客的情况，who care（皮一下~）！
 
 **已完成：** 
 <br/>
@@ -161,11 +159,11 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
   
 ## 部署
 
-   控制台`hexo clean && hexo g && hexo s`三连，浏览器输入`http://localhost:4000/`即可看到效果！
+&emsp;&emsp;控制台`hexo clean && hexo g && hexo s`三连，浏览器输入`http://localhost:4000/`即可看到效果！
 
 ## 最后
    
-   附上完整版**站点配置文件**，供大家参考 &#x261f;&#x261f;
+&emsp;&emsp;附上完整版**站点配置文件**，供大家参考 &#x261f;&#x261f;
 
 ```js
 # Hexo Configuration

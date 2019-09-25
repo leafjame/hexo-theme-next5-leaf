@@ -13,7 +13,7 @@
 
 ## 前言
 
-网上有很多关于**github pages**博客搭建的文章，使用的比较多的是**Jekyll、hexo**，github官方推荐的是前者，经过比较，本人还是选择了**Hexo**，因为有许多人推崇的一款主题：**NexT**。
+网上有很多关于**github pages**博客搭建的文章，使用的比较多的是**Jekyll、hexo**。github官方推荐的是前者，经过比较，本人还是选择了**Hexo**，因为有许多人推崇的一款主题：**NexT**。
 
 clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大家**star**和**fork**！如有疑问，请提issue或着在博客给我反馈。
 
@@ -336,8 +336,9 @@ douban:
   timeout: 10000 # 爬取数据的超时时间
 
 ```
-> 博客美化教程可参考[我的博客](https://leafjame.github.io)
 
 ## 部署
 
 控制台`hexo clean && hexo g && hexo s`三连，浏览器输入`http://localhost:4000/`即可看到效果！
+
+> 博客美化教程可参考[我的小站](https://leafjame.github.io)

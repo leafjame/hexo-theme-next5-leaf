@@ -151,11 +151,11 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 
   按需配置valine、leanCloud、busuanzi、tidio、hotjar、轮播图、文章推荐、点击特效、自定义标签等。
 
-  > PS：部分功能需注册后方可使用。
-
 - hexo站点配置文件_config.yml
 
   按需配置abbrlink、highlight、deploy、douban、hexo-neat等。
+  
+  > 注意：部分功能需注册后方可使用。
   
 ## 部署
 

@@ -12,7 +12,7 @@
 
   {% if theme.tagcloud.type == 'bubble' %}
       <!-- 球型气泡标签云 -->
-      <script type="text/javascript" src="/js/src/bubble.js">
+      <script type="text/javascript" src="/js/src/bubble.js"></script>
   {% endif %}
 
   {% include '_third-party/analytics/index.swig' %}

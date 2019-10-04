@@ -109,7 +109,9 @@
   {% include '_custom/custom.swig' %}
 
   <!-- 看板娘 -->
-  <script async src="/live2d-widget/autoload.js"></script>
+  {% if theme.live2d.enable %}
+      <script async src="/live2d-widget/autoload.js"></script>
+  {% endif %}
 
   {% if theme.aplayer.enable %}
       <!-- aplayer音频播放 -->

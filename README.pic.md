@@ -4,6 +4,13 @@
 
 ![ucbkDK.gif](https://s2.ax1x.com/2019/10/06/ucbkDK.gif)
 
+### 排行榜
+![ugKqH0.gif](https://s2.ax1x.com/2019/10/06/ugKqH0.md.gif)
+
+### 相册
+
+![ugKOEV.gif](https://s2.ax1x.com/2019/10/06/ugKOEV.gif)
+
 ### 归档
 
 ![ucThKf.gif](https://s2.ax1x.com/2019/10/06/ucThKf.gif)

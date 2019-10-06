@@ -90,8 +90,8 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 
 **进行中：** 
 <br/>
-- [ ] Service Worker 离线访问功能
-- [ ] PWA（Progressive Web App）将网站安装到桌面
+- [ ] Service Worker：离线访问功能
+- [ ] PWA（Progressive Web App）：将网站安装到桌面(PC、移动)
 - [ ] 网站运行时间、访问量DIY
 ## 安装
 

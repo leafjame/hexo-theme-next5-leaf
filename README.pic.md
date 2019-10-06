@@ -46,6 +46,18 @@
 
 ### 移动端效果
 
+#### chrome ========>>>>
+
+![chrom浏览器](https://s2.ax1x.com/2019/09/30/utxFSg.png)
+
+#### 手机桌面 ========>>>>
+
+![手机桌面](https://s2.ax1x.com/2019/09/30/utxKYT.png)
+
+#### 加载页面 ========>>>>
+
+![uge6oD.png](https://s2.ax1x.com/2019/10/06/uge6oD.png)
+
 #### 首页 ========>>>>
 
 ![ugkUTH.png](https://s2.ax1x.com/2019/10/06/ugkUTH.png)

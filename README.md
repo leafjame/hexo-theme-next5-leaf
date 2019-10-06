@@ -10,8 +10,8 @@
 ![](https://img.shields.io/badge/hexo--douban-1.1.3-green)
 
 **效果预览**
- - 网页截图：[传送门](https://github.com/leafjame/hexo-theme-next5-leaf/blob/master/README.pic.md)
- - 站点地址：[传送门](https://leafjame.github.io)
+ - 网页截图：[传送门1](https://github.com/leafjame/hexo-theme-next5-leaf/blob/master/README.pic.md)
+ - 站点地址：[传送门2](https://leafjame.github.io)
 
 ## 前言
 

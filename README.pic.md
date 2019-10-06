@@ -5,7 +5,8 @@
 ![ucbkDK.gif](https://s2.ax1x.com/2019/10/06/ucbkDK.gif)
 
 ### 排行榜
-![ugKqH0.gif](https://s2.ax1x.com/2019/10/06/ugKqH0.md.gif)
+
+![ugKqH0.gif](https://s2.ax1x.com/2019/10/06/ugKqH0.gif)
 
 ### 相册
 

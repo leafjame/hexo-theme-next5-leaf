@@ -9,7 +9,9 @@
 ![](https://img.shields.io/badge/hexo--related--popular--post-3.0.6-brightgreen)
 ![](https://img.shields.io/badge/hexo--douban-1.1.3-green)
 
-**效果预览：[点我](https://leafjame.github.io)**
+**效果预览**
+ - 截图：[点我](https://github.com/leafjame/hexo-theme-next5-leaf/blob/master/README.pic.md)
+ - 站点：[点我](https://leafjame.github.io)
 
 ## 前言
 
@@ -85,6 +87,11 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 
 ...
 </br>
+
+**进行中：** 
+<br/>
+- [] Service Worker 离线访问功能
+- [] PWA（Progressive Web App）将网站安装到桌面
 
 ## 安装
 

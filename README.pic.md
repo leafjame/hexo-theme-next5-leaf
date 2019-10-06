@@ -36,8 +36,6 @@
 
 ![效果4](https://s2.ax1x.com/2019/10/06/ucbFu6.gif)
 
-> **分类** 和 **标签** 样式效果可互换，在主题配置文件中已集成！
-
 ### 友链
 
 [![ucToVg.gif](https://s2.ax1x.com/2019/10/06/ucToVg.gif)](https://imgchr.com/i/ucToVg)
@@ -64,15 +62,15 @@
 
 ![效果1](https://s2.ax1x.com/2019/10/06/ucvVVP.gif)
 
-效果2 ========>>>>
+##### 效果2 ========>>>>
 
 ![效果2](https://s2.ax1x.com/2019/10/06/ucvAbt.gif)
 
-效果3 ========>>>>
+##### 效果3 ========>>>>
 
 ![效果3](https://s2.ax1x.com/2019/10/06/ucvkDI.gif)
 
-效果4 ========>>>>
+##### 效果4 ========>>>>
 
 ![效果4](https://s2.ax1x.com/2019/10/06/ucvZUf.gif)
 

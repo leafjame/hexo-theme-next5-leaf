@@ -1,6 +1,6 @@
 ### 首页
 
-index.gif
+![ucTTaQ.gif](https://s2.ax1x.com/2019/10/06/ucTTaQ.gif)
 
 ### 归档
 

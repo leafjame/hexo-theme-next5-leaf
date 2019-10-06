@@ -93,6 +93,10 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 - [ ] Service Worker：离线访问功能
 - [ ] PWA（Progressive Web App）：将网站安装到桌面(PC、移动)
 - [ ] 网站运行时间、访问量DIY
+
+...
+</br>
+
 ## 安装
 
 1. `Download ZIP`解压后，放到`hexo`目录`themes`主题下即可。或者使用 git命令，进入到本地`hexo`目录：

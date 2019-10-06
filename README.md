@@ -10,7 +10,7 @@
 ![](https://img.shields.io/badge/hexo--douban-1.1.3-green)
 
 **效果预览**
- - 网页截图：[传送门1](https://github.com/leafjame/hexo-theme-next5-leaf/blob/master/README.pic.md)
+ - 网站截图：[传送门1](https://github.com/leafjame/hexo-theme-next5-leaf/blob/master/README.pic.md)
  - 站点地址：[传送门2](https://leafjame.github.io)
 
 ## 前言
@@ -90,9 +90,9 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 
 **进行中：** 
 <br/>
-- [] Service Worker 离线访问功能
-- [] PWA（Progressive Web App）将网站安装到桌面
-
+- [ ] Service Worker 离线访问功能
+- [ ] PWA（Progressive Web App）将网站安装到桌面
+- [ ] 网站运行时间、访问量DIY
 ## 安装
 
 1. `Download ZIP`解压后，放到`hexo`目录`themes`主题下即可。或者使用 git命令，进入到本地`hexo`目录：

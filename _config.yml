@@ -907,6 +907,11 @@ typing_effect:
 tagcloud:
   type: bubble # 为空则使用默认标签页
 
+# 分类页样式
+# type: | love | bubble |
+category_style:
+  type: love # 为空则使用默认标签页
+
 # 侧栏自定义时间
 diy_time:
   runtime: true #运行时间

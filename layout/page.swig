@@ -67,6 +67,15 @@
             <div class="category-all">
               {{ list_categories() }}
             </div>
+
+            {% if theme.category_style.type == 'love' %}
+                 {# 爱心分类页 #}
+                 {% include 'category-love.swig' %}
+            {% elif theme.category_style.type == 'bubble' %}
+                 {# 自定义球型气泡分类页 #}
+                 {% include 'category-bubble.swig' %}
+            {% endif %}
+
           </div>
 
         <!-- 友情链接-->

@@ -9,17 +9,19 @@
 ![](https://img.shields.io/badge/hexo--related--popular--post-3.0.6-brightgreen)
 ![](https://img.shields.io/badge/hexo--douban-1.1.3-green)
 
-**效果：[点我查看](https://leafjame.github.io)**
+**效果预览**
+ - 网站截图：[传送门 1](https://github.com/leafjame/hexo-theme-next5-leaf/blob/master/README.pic.md)
+ - 站点地址：[传送门 2](https://leafjame.github.io)
 
 ## 前言
 
-网上有很多关于**github pages**博客搭建的文章，使用的比较多的是**Jekyll、hexo**，github官方推荐的是前者，经过比较，本人还是选择了**Hexo**，因为有许多人推崇的一款主题：**NexT**。
+&emsp;&emsp;网上有很多关于**github pages**博客搭建的文章，使用的比较多的是**Jekyll、hexo**。github官方推荐的是前者，经过比较，本人还是选择了**Hexo**，因为有许多人推崇的一款主题：**NexT**。
 
 clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大家**star**和**fork**！如有疑问，请提issue或着在博客给我反馈。
 
 ## 功能
 
-> 虽然这些功能网上一搜一大把，不过还是罗列一下吧，who care（皮一下~）！
+  > 以下功能网上一搜一大把，不过还是为大家整理了下本博客的情况，who care（皮一下~）！
 
 **已完成：** 
 <br/>
@@ -28,7 +30,7 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 - [x] 全局字体设置（思源宋体）
 - [x] 动态背景图片
 - [x] 随机三角丝带
-- [x] 鼠标点击特效(三种)
+- [x] 鼠标点击特效(3种)
 - [x] 文章虚拟背景
 - [x] 文章置顶、精品
 - [x] 文章排行榜（热榜）
@@ -61,103 +63,125 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 - [x] 评论区打字特效
 - [x] 页面反馈
 <br/>
-【截至20190901】更多功能待你来发现...</br>
-.</br>
-.</br>
-.</br>
+
+**20190925新增以下功能：** 
+<br/>
+- [x] 手机端样式适配
+- [x] 代码块Mac panel特效
+- [x] LeanCloud切换国际版
+- [x] 接入Google AdSense广告
+- [x] 新增ShareJs分享
+- [x] 类知乎卡片链接样式
+- [x] Valine-Admin评论系统
+- [x] Valine-Admin邮件通知
+- [x] 相关文章推荐
+- [x] 标签样式调整
+- [x] 标签页自定义样式（4种）
+- [x] 分类页自定义样式（2种）
+- [x] 归档页自定义样式
+- [x] 鼠标样式
+- [x] 主页走马灯（轮播图）
+- [x] 瀑布流相册
+- [x] canvas粒子时钟
+- [x] 豆瓣读书、电影
+- [x] 页面其它的特效
+
+...
+</br>
 
 **进行中：** 
 <br/>
-- [ ] 手机端样式适配
-- [ ] 代码块Mac panel特效
-- [ ] LeanCloud切换国际版
-- [ ] 接入Google AdSense广告
-- [ ] 新增ShareJs分享
-- [ ] 类知乎卡片链接样式
-- [ ] Valine-Admin评论系统
-- [ ] Valine-Admin邮件通知
-- [ ] 相关文章推荐
-- [ ] 标签样式调整
-- [ ] 标签页自定义样式（5种）
-- [ ] 归档页自定义样式
-- [ ] 鼠标样式
-- [ ] 主页走马灯（轮播图）
-- [ ] 瀑布流相册
-- [ ] canvas粒子时钟
-- [ ] 豆瓣读书、电影
-- [ ] 页面其它的特效
-</br>
+- [ ] Service Worker：离线访问功能
+- [ ] PWA（Progressive Web App）：将网站安装到桌面(PC、移动)
+- [ ] 网站运行时间DIY
+- [ ] 访问量DIY
+- [ ] 文章首字下沉效果
+- [ ] 邮件订阅功能
+- [ ] 。。。
+- [ ] 暂时没想到
+- [ ] 。。。
+
 ...
+</br>
 
 ## 安装
 
-`Download ZIP`解压后，放到`hexo`目录`themes`主题下即可。或者使用 git命令，进入到本地`hexo`目录：
+1. `Download ZIP`解压后，放到`hexo`目录`themes`主题下即可。或者使用 git命令，进入到本地`hexo`目录：
 
-```shell
-git clone https://github.com/leafjame/hexo-theme-next5-leaf.git /themes/leaf
-```
+    ```shell
+    git clone https://github.com/leafjame/hexo-theme-next5-leaf.git themes/leaf
+    ```
 
-将其放到**themes**目录下，名字自定义。然后在站点的配置文件`_config.yml`中指定所使用的`theme`：
+2. 将其放到**themes**目录下，名字自定义。然后在站点的配置文件`_config.yml`中指定所使用的`theme`：
 
-```js
-theme: leaf
-```
+    ```js
+    theme: leaf
+    ```
 
-### 依赖环境
-
-#### 插件
+### 依赖插件
 
 - 插件列表
 
-本主题中在搭建过程中，集成了一定的插件，所列部分如下：
+  本主题中在搭建过程中，集成了一定的插件，所列部分如下：
 
-```js
-"hexo-abbrlink": "^2.0.5",   //生成文章唯一URL插件
-"hexo-baidu-url-submit": "0.0.6",  //url提交插件，用于seo
-"hexo-deployer-git": "^1.0.0",  //git插件，用于部署
-"hexo-generator-baidu-sitemap": "^0.1.6",  //百度sitemap，用于seo
-"hexo-generator-sitemap": "^1.2.0",  // 同上
-"hexo-generator-feed": "^1.2.2",  // SSR插件
-"hexo-generator-index-pin-top": "^0.2.2",  //用于指定文章置顶
-"hexo-generator-search": "^2.4.0",  //本地搜索插件
-"hexo-neat": "^1.0.4",  // 压缩js、css代码的插件
-"hexo-permalink-pinyin": "^1.1.0",  // 中文链接转拼音的插件
-"hexo-renderer-ejs": "^0.3.1",  // 是不是自带的？。。。
-"hexo-renderer-marked": "^1.0.1",  // 是不是自带的？。。。
-"hexo-renderer-stylus": "^0.3.3",  // 是不是自带的？。。。
-"hexo-symbols-count-time": "^0.6.0",  // 站点字数统计
-"hexo-tag-cloud": "^2.1.1",  //标签云
-"hexo-tag-dplayer": "^0.3.3",  //dplayer视频插件
-"hexo-wordcount": "^6.0.1",  // 字数统计插件
-"webpack-cli": "^3.3.7",  // 装exo-abbrlink时提示装的，按需下载
-"@webpack-cli/init": "^0.2.2",  // 同上
-```
-> 所装插件信息位于站点根目录的`package.json`文件，核对一下自己是否已经装过。
+  ```js
+  "hexo-abbrlink": "^2.0.5",   //生成文章唯一URL插件
+  "hexo-baidu-url-submit": "0.0.6",  //url提交插件，用于seo
+  "hexo-deployer-git": "^1.0.0",  //git插件，用于部署
+  "hexo-douban": "^1.1.3", //豆瓣读书、电影插件
+  "hexo-generator-baidu-sitemap": "^0.1.6",  //百度sitemap，用于seo
+  "hexo-generator-sitemap": "^1.2.0",  // 同上
+  "hexo-generator-feed": "^1.2.2",  // SSR插件
+  "hexo-generator-index-pin-top": "^0.2.2",  //用于指定文章置顶
+  "hexo-generator-search": "^2.4.0",  //本地搜索插件
+  "hexo-neat": "^1.0.4",  // 压缩js、css代码的插件
+  "hexo-permalink-pinyin": "^1.1.0",  // 中文链接转拼音的插件
+  "hexo-related-popular-posts": "^3.0.6",  // 相关文章推荐
+  "hexo-renderer-ejs": "^0.3.1",  // 是不是自带的？。。。
+  "hexo-renderer-marked": "^1.0.1",  // 是不是自带的？。。。
+  "hexo-renderer-stylus": "^0.3.3",  // 是不是自带的？。。。
+  "hexo-symbols-count-time": "^0.6.0",  // 站点字数统计
+  "hexo-tag-cloud": "^2.1.1",  //标签云
+  "hexo-tag-dplayer": "^0.3.3",  //dplayer视频插件
+  "hexo-wordcount": "^6.0.1",  // 字数统计插件
+  "webpack-cli": "^3.3.7",  // 装hexo-abbrlink时提示装的，按需下载
+  "@webpack-cli/init": "^0.2.2",  // 同上
+  ```
+  > 所装插件信息位于站点根目录的`package.json`文件，核对一下自己是否已经装过。
 
-- 安装插件命令
+- 安装命令
 
-在站点根目录下，使用：
+  在站点根目录下，使用：
 
-```nodejs
-npm install --save-dev hexo-neat
-```
-即可安装hexo-neat插件，其他的插件安装方式类似。默认是安装最新版，如要指定版本号，可使用：
+  ```nodejs
+  npm install --save-dev hexo-neat
+  ```
 
-```nodejs
-npm install --save-dev hexo-neat@1.0.4
-```
+  即可安装hexo-neat插件，其他的插件安装方式类似。默认是安装最新版，如要指定版本号，可使用：
 
-#### _config.yml文件
+  ```nodejs
+  npm install --save-dev hexo-neat@1.0.4
+  ```
 
-- next主题配置文件
+### 配置文件
 
-按需配置valine、leanCloud_visitors、busuanzi_count、tidio、hotjar等。PS：部分功能需注册后方可使用。
+- next主题配置文件_config.yml
 
-- hexo站点配置文件
+  按需配置valine、leanCloud、busuanzi、tidio、hotjar、轮播图、文章推荐、点击特效、自定义标签等。
 
-按需配置abbrlink、hexo-neat、Deployment等。
+- hexo站点配置文件_config.yml
 
-附上完整版**站点配置文件**，供大家参考：
+  按需配置abbrlink、highlight、deploy、douban、hexo-neat等。
+  
+  > 注意：部分功能需注册后方可使用。
+  
+## 部署
+
+&emsp;&emsp;控制台`hexo clean && hexo g && hexo s`三连，浏览器输入`http://localhost:4000/`即可看到效果！
+
+## 最后
+   
+&emsp;&emsp;附上完整版**站点配置文件**，供大家参考 &#x261f;&#x261f;
 
 ```js
 # Hexo Configuration
@@ -324,10 +348,17 @@ neat_js:
   - '**/waifu-tips.js'
   - '**/iframe.js'
   - '**/fireworks.js'
+  
+# https://github.com/mythsman/hexo-douban
+douban:
+  user: your_id
+  builtin: false  #否将生成页面的功能嵌入hexo s和hexo g中(false则需要使用hexo douban命令)
+  book:
+    title: '读书系列' # 该页面的标题
+    quote: '书山有路勤为径，学海无涯苦作舟' # 写在页面开头的一段话,支持html语法.
+  movie:
+    title: '观影系列'
+    quote: 'Life was like a box of chocolates, you never know what you’re going to get'
+  timeout: 10000 # 爬取数据的超时时间
 
 ```
-> 博客美化教程可参考[我的博客](https://leafjame.github.io)
-
-## 部署
-
-控制台`hexo clean && hexo g && hexo s`三连，浏览器输入`http://localhost:4000/`即可看到效果！

@@ -105,7 +105,7 @@ menu:
   about: /about/ || user
   #schedule: /schedule/ || calendar
   #commonweal: /404/ || heartbeat
-  #links: /links/ || link
+  links: /links/ || link
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -905,7 +905,7 @@ typing_effect:
 # type: | tagcanvas | color | love | bubble |
 # PS：tagcanvas依赖hexo-tag-cloud插件
 tagcloud:
-  type: bubble # 为空则使用默认标签页
+  type: love # 为空则使用默认标签页
 
 # 分类页样式
 # type: | love | bubble |

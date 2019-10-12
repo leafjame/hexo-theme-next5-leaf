@@ -981,8 +981,8 @@ carousel:
   enable: true
   item: [
     {
-      'link': 'http://news.163.com/special/zgdj_70/',
-      'img': 'https://s2.ax1x.com/2019/09/25/uEx9TU.gif'
+      'link': 'https://leafjame.github.io',
+      'img': 'https://s2.ax1x.com/2019/10/12/ujnO7n.png'
     },
     {
       'link': 'https://github.com/leafjame/hexo-theme-next5-leaf',
@@ -995,13 +995,5 @@ carousel:
     {
       'link': 'https://leafjame.github.io/tags/Hexo-NexT/',
       'img': 'https://s2.ax1x.com/2019/09/22/u9HFxA.gif'
-    },
-    {
-      'link': 'https://leafjame.github.io/posts/2114475547.html',
-      'img': 'https://s2.ax1x.com/2019/09/22/u9LYZt.png'
-    },
-    {
-      'link': 'http://leafjame.github.io/books/',
-      'img': 'https://s2.ax1x.com/2019/09/09/nJO6mR.png'
     }
   ]

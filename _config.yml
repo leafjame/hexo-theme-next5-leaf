@@ -905,7 +905,7 @@ typing_effect:
 # type: | tagcanvas | color | love | bubble |
 # PS：tagcanvas依赖hexo-tag-cloud插件
 tagcloud:
-  type: love # 为空则使用默认标签页
+  type: bubble # 为空则使用默认标签页
 
 # 分类页样式
 # type: | love | bubble |

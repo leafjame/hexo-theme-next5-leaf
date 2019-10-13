@@ -100,8 +100,5 @@
 
 #### 绚丽彩虹播放器
 
-![绚丽彩虹播放器](https://s2.ax1x.com/2019/10/13/uxeQHA.gif)
-
-![uxHbEn.gif](https://s2.ax1x.com/2019/10/13/uxHbEn.gif)
-
+![uxbWZ9.gif](https://s2.ax1x.com/2019/10/13/uxbWZ9.gif)
 

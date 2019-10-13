@@ -98,7 +98,10 @@
 
 ![ucxdFf.gif](https://s2.ax1x.com/2019/10/06/ucxdFf.gif)
 
+#### 绚丽彩虹播放器
 
+![绚丽彩虹播放器](https://s2.ax1x.com/2019/10/13/uxeQHA.gif)
 
+![uxH7Hs.gif](https://s2.ax1x.com/2019/10/13/uxH7Hs.gif)
 
 

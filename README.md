@@ -191,8 +191,8 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 # Site
 title: Leaf's Blog
 subtitle: 因心造境，风云由我！
-signature: Java狮 北漂男 摄影 旅行 赚钱
-description: Java狮 北漂男 摄影 旅行
+signature: 人在江湖，生不由己
+description: 人在江湖，生不由己，出来混，迟早是要还的!
 keywords: leafjame 北宸 Java 程序员 北漂
 author: 北宸
 language: zh-Hans

@@ -35,11 +35,11 @@ clone 后一顿魔改，效果自己看着还阔以，在这 share 出来，欢�
 - [x] 文章置顶、精品
 - [x] 文章排行榜（热榜）
 - [x] 文章浏览、字数、时长
-- [x] APlayer音乐播放器
-- [x] DPlayer视频播放器
+- [x] APlayer 音乐播放器
+- [x] DPlayer 视频播放器
 - [x] 看板娘
-- [x] SEO相关
-- [x] CDN相关
+- [x] SEO 相关
+- [x] CDN 相关
 - [x] 个性化返回顶部
 - [x] fork me from github
 - [x] 博主头像旋转
@@ -48,12 +48,12 @@ clone 后一顿魔改，效果自己看着还阔以，在这 share 出来，欢�
 - [x] 网站运行时间
 - [x] 网站访问人数、访问量
 - [x] 阅读全文样式
-- [x] DaoVoice在线聊天
-- [x] TiDio在线聊天
+- [x] DaoVoice 在线聊天
+- [x] TiDio 在线聊天
 - [x] 来必力评论系统
-- [x] Valine评论系统
-- [x] abbrlink文章永久链接
-- [x] neat压缩
+- [x] Valine 评论系统
+- [x] abbrlink 文章永久链接
+- [x] neat 压缩
 - [x] 文章版权信息
 - [x] 代码块样式
 - [x] 代码块复制
@@ -67,13 +67,13 @@ clone 后一顿魔改，效果自己看着还阔以，在这 share 出来，欢�
 **20190925 新增以下功能（v2.0）：** 
 <br/>
 - [x] 手机端样式适配
-- [x] 代码块Mac panel特效
-- [x] LeanCloud切换国际版
-- [x] 接入Google AdSense广告
-- [x] 新增ShareJs分享
+- [x] 代码块 Mac panel 特效
+- [x] LeanCloud 切换国际版
+- [x] 接入 Google AdSense 广告
+- [x] 新增 ShareJs 分享
 - [x] 类知乎卡片链接样式
-- [x] Valine-Admin评论系统
-- [x] Valine-Admin邮件通知
+- [x] Valine-Admin 评论系统
+- [x] Valine-Admin 邮件通知
 - [x] 相关文章推荐
 - [x] 标签样式调整
 - [x] 标签页自定义样式（4种）
@@ -82,7 +82,7 @@ clone 后一顿魔改，效果自己看着还阔以，在这 share 出来，欢�
 - [x] 鼠标样式
 - [x] 主页走马灯（轮播图）
 - [x] 瀑布流相册
-- [x] canvas粒子时钟
+- [x] canvas 粒子时钟
 - [x] 豆瓣读书、电影
 - [x] 页面其它特效
 

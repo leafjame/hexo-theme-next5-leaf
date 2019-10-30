@@ -15,9 +15,9 @@
 
 ## 前言
 
-&emsp;&emsp;网上有很多关于**github pages**博客搭建的文章，使用的比较多的是**Jekyll、hexo**。github官方推荐的是前者，经过比较，本人还是选择了**Hexo**，因为有许多人推崇的一款主题：**NexT**。
+&emsp;&emsp;网上有很多关于 **github pages** 博客搭建的文章，使用的比较多的是 **Jekyll、hexo**。github 官方推荐的是前者，经过比较，本人还是选择了 **Hexo**，因为有许多人推崇的一款主题：**NexT**。
 
-clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大家**star**和**fork**！如有疑问，请提issue或着在博客给我反馈。
+clone 后一顿魔改，整了些还算顺眼的效果，share 出来，希望大家 **star** 和 **fork**！如有疑问，请提 issue 或着在博客给我反馈。
 
 ## 功能
 
@@ -173,13 +173,13 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 
 ### 配置文件
 
-- next主题配置文件_config.yml
+- next 主题配置文件 _config.yml
 
-  按需配置valine、leanCloud、busuanzi、tidio、hotjar、轮播图、文章推荐、点击特效、自定义标签等。
+  按需配置 valine、leanCloud、busuanzi、tidio、hotjar、轮播图、文章推荐、点击特效、自定义标签等。
 
-- hexo站点配置文件_config.yml
+- hexo 站点配置文件 _config.yml
 
-  按需配置abbrlink、highlight、deploy、douban、hexo-neat等。
+  按需配置 abbrlink、highlight、deploy、douban、hexo-neat 等。
   
   > 注意：部分功能需注册后方可使用。
   

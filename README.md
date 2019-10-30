@@ -181,7 +181,7 @@ clone 后一顿魔改，效果自己看着还阔以，在这 share 出来，欢�
 
   按需配置 abbrlink、highlight、deploy、douban、hexo-neat 等。
   
-  > 注意：部分功能需注册后方可使用。
+  > ⚠️ 注意：部分功能需注册后方可使用。
   
 ## 部署
 

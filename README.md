@@ -17,7 +17,7 @@
 
 &emsp;&emsp;网上有很多关于 github pages 博客搭建的文章，使用的比较多的是 jekyll、hexo。 github 官方推荐的是前者，经过比较，本人选择了 hexo，因为有许多人推崇的一款主题：next。
 
-clone 后一顿魔改，效果自己看着还算可以，在这 share 出来，欢迎 star、fork ！如有疑问，请提 issue 或着在博客给我反馈。
+clone 后一顿魔改，效果自己看着还算可以，在这 share 出来，欢迎 star、fork ！如有疑问，请提 issue 或在博客给我反馈。
 
 ## 功能
 

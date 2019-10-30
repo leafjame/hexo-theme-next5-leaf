@@ -109,13 +109,13 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 
 ## 安装
 
-1. `Download ZIP`解压后，放到`hexo`目录`themes`主题下即可。或者使用 git命令，进入到本地`hexo`目录：
+1. Download ZIP 解压后，放到 hexo 目录 themes 主题下即可。或者使用 git 命令，进入到本地 hexo 目录：
 
     ```shell
     git clone https://github.com/leafjame/hexo-theme-next5-leaf.git themes/leaf
     ```
 
-2. 将其放到**themes**目录下，名字自定义。然后在站点的配置文件`_config.yml`中指定所使用的`theme`：
+2. 将其放到 themes 目录下，名字自定义。然后在站点的配置文件 _config.yml 中指定所使用的 theme：
 
     ```shell
     theme: leaf
@@ -155,7 +155,7 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
   "webpack-cli": "^3.3.7",  // 装hexo-abbrlink时提示装的，按需下载
   "@webpack-cli/init": "^0.2.2",  // 同上
   ```
-  > 所装插件信息位于站点根目录的`package.json`文件，核对一下自己是否已经装过。
+  > 所装插件信息位于站点根目录的 package.json 文件，核对一下自己是否已经装过。
 
 - 安装命令
 
@@ -165,7 +165,7 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
   npm install --save-dev hexo-neat
   ```
 
-  即可安装hexo-neat插件，其他的插件安装方式类似。默认是安装最新版，如要指定版本号，可使用：
+  即可安装 hexo-neat 插件，其他的插件安装方式类似。默认是安装最新版，如要指定版本号，可使用：
 
   ```nodejs
   npm install --save-dev hexo-neat@1.0.4
@@ -185,7 +185,7 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
   
 ## 部署
 
-&emsp;&emsp;控制台`hexo clean && hexo g && hexo s`三连，浏览器输入`http://localhost:4000/`即可看到效果！
+&emsp;&emsp;控制台 `hexo clean && hexo g && hexo s` 三连，浏览器输入 `http://localhost:4000/` 即可看到效果！
 
 ## 最后
    

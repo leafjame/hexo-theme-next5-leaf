@@ -117,12 +117,14 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 
 2. 将其放到**themes**目录下，名字自定义。然后在站点的配置文件`_config.yml`中指定所使用的`theme`：
 
-    ```js
+    ```shell
     theme: leaf
     ```
-> 如需 clone 指定 tag 版本，可以使用 `git clone --branch <tag_name> <repo_url>` 命令，如
+   PS：如需 clone 指定 tag 版本，可以使用 `git clone --branch <tag_name> <repo_url>` 命令，如：
 
-```git clone --branch v1.0 https://github.com/leafjame/hexo-theme-next5-leaf.git themes/leaf```
+   ```shell
+   git clone --branch v1.0 https://github.com/leafjame/hexo-theme-next5-leaf.git themes/leaf
+   ```
 
 ### 依赖插件
 

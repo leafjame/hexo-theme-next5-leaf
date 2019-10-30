@@ -84,7 +84,7 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 - [x] 瀑布流相册
 - [x] canvas粒子时钟
 - [x] 豆瓣读书、电影
-- [x] 页面其它的特效
+- [x] 页面其它特效
 
 ...
 </br>
@@ -93,12 +93,15 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 <br/>
 - [ ] Service Worker：离线访问功能
 - [ ] PWA（Progressive Web App）：将网站安装到桌面(PC、移动)
-- [ ] 网站运行时间DIY
-- [ ] 访问量DIY
+- [ ] 网站运行时间 DIY
+- [ ] 访问量 DIY
 - [ ] 文章首字下沉效果
+- [ ] 绚丽彩虹播放器
+- [ ] 炫彩 logo
+- [ ] 旋转魔方（2种）
+- [ ] 浏览器 Console 个性化输出
 - [ ] 邮件订阅功能
 - [ ] 。。。
-- [ ] 暂时没想到
 - [ ] 。。。
 
 ...
@@ -191,8 +194,8 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
 # Site
 title: Leaf's Blog
 subtitle: 因心造境，风云由我！
-signature: Java狮 北漂男 摄影 旅行 赚钱
-description: Java狮 北漂男 摄影 旅行
+signature: 人在江湖，生不由己
+description: 人在江湖，生不由己，出来混，迟早是要还的!
 keywords: leafjame 北宸 Java 程序员 北漂
 author: 北宸
 language: zh-Hans

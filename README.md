@@ -120,7 +120,7 @@ clone 后一顿魔改，效果自己看着还阔以，在这 share 出来，欢�
     ```shell
     theme: leaf
     ```
-   PS：如需 clone 指定 tag 版本，可以使用 `git clone --branch <tag_name> <repo_url>` 命令，如：
+   PS：如需 clone 指定 tag 版本，可以使用 `git clone --branch <tag_name> <repo_url> <local_path>` 命令，如：
 
    ```shell
    git clone --branch v1.0 https://github.com/leafjame/hexo-theme-next5-leaf.git themes/leaf

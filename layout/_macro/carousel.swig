@@ -26,17 +26,35 @@
 }
 
 @media (max-width: 767px){
-	.rights{
-		display: none;
-	}
-	.carousel{
-		width: 100% !important;
-		height: 100% !important;
-	}
-	.slide{
-		width: 100% !important;
-		height: 100% !important;
-	}
+   .rights{
+      display: none;
+   }
+   .carousel{
+      width: 100% !important;
+      height: 100% !important;
+   }
+   .slide{
+      width: 100% !important;
+      height: 100% !important;
+   }
+	
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 30px;
+  }
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .icon-prev {
+    margin-left: -10px;
+  }
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next {
+   /* margin-right: -10px; */
+  }
 
 }
 
@@ -331,37 +349,37 @@
 
 	  </div>
 
-		<div  class="rights" style="width: 30%; height: 280px; margin-right: 0px;margin-left: 20px;float: left;">
+		<div  class="rights" style="width: 30%; height: 290px; margin-right: 0px;margin-left: 20px;float: left;">
   	   <!-- 天气插件 -->
        <iframe width="300px" scrolling="no" height="50px" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=12&color=%23&bdc=%23&icon=1&py=beijing&num=2&site=12"></iframe>
 
   	   <!-- r热门排行 -->
   	   <div class="my-carousel">
-         <a href="/top/" target="_blank">
+         <a href="https://leafjame.github.io/top/" target="_blank">
             <img class="right-siders nofancybox" src="/images/hot.png" width="100%"/>
          </a>
   	   </div>
 
   	   <!-- 时光留影 -->
   	   <div class="my-carousel">
-         <a href="/photos/" target="_blank">
+         <a href="https://leafjame.github.io/photos/" target="_blank">
            <img class="right-siders nofancybox" src="/images/time.png"/>
          </a>
   	   </div>
 
-  	  <!-- 小小胡同 -->
-  	  <div class="my-carousel">
-        <a href="/xiaohutong/" target="_blank">
-          <img class="right-siders nofancybox" src="/images/xiaohutong.png"/>
-        </a>
-  	  </div>
-
       <!-- 推荐阅读 -->
       <div class="my-carousel">
-        <a href="/books/" target="_blank">
+        <a href="https://leafjame.github.io/books/" target="_blank">
           <img class="right-siders nofancybox" src="/images/read.png"/>
         </a>
-     </div>
+      </div>
+
+      <!-- 订阅本站 -->
+      <div class="my-carousel">
+         <a href="https://mailchi.mp/e92415d27722/leaf" target="_blank">
+           <img class="right-siders nofancybox" src="/images/subscribe.png"/>
+         </a>
+      </div>
 
    </div>
 

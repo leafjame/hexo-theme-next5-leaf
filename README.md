@@ -1,4 +1,4 @@
-# 基于Hexo-NexT5的一款主题
+# 基于 Hexo NexT 5 的一款主题
 ![](https://img.shields.io/badge/hexo--next-v5.1.4-brightgreen) 
 ![](https://img.shields.io/badge/hexo--abbrink-v2.0.5-brightgreen) 
 ![](https://img.shields.io/badge/hexo--neat-1.0.4-brightgreen)
@@ -15,9 +15,9 @@
 
 ## 前言
 
-&emsp;&emsp;网上有很多关于 **github pages** 博客搭建的文章，使用的比较多的是 **Jekyll、hexo**。github 官方推荐的是前者，经过比较，本人还是选择了 **Hexo**，因为有许多人推崇的一款主题：**NexT**。
+&emsp;&emsp;网上有很多关于 github pages 博客搭建的文章，使用的比较多的是 Jekyll、hexo。github 官方推荐的是前者，经过比较，本人选择了 Hexo，因为有许多人推崇的一款主题：NexT。
 
-clone 后一顿魔改，整了些还算顺眼的效果，share 出来，希望大家 **star** 和 **fork**！如有疑问，请提 issue 或着在博客给我反馈。
+clone 后一顿魔改，效果自己看着还阔以，在这 share 出来，欢迎 star、fork ！如有疑问，请提 issue 或着在博客给我反馈。
 
 ## 功能
 
@@ -64,7 +64,7 @@ clone 后一顿魔改，整了些还算顺眼的效果，share 出来，希望�
 - [x] 页面反馈
 <br/>
 
-**20190925新增以下功能（v2.0）：** 
+**20190925 新增以下功能（v2.0）：** 
 <br/>
 - [x] 手机端样式适配
 - [x] 代码块Mac panel特效

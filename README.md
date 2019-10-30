@@ -120,6 +120,8 @@ clone后一顿魔改，整了些还算顺眼的效果，share出来，希望大�
     ```js
     theme: leaf
     ```
+> 如需 clone 指定 tag ，可以使用`git clone --branch <tag_name> <repo_url>` 命令
+> 如：`git clone --branch v1.0 https://github.com/leafjame/hexo-theme-next5-leaf.git themes/leaf`
 
 ### 依赖插件
 

@@ -7,8 +7,8 @@
 ![](https://img.shields.io/badge/hexo--symbols--count--time-v0.6.0-blue)
 ![](https://img.shields.io/badge/hexo--generator--sitemap-v1.2.0-green)
 ![](https://img.shields.io/badge/hexo--baidu--url--submit-v0.0.6-green)
-![](https://img.shields.io/badge/hexo--related--popular--post-v3.0.6-blue)
-![](https://img.shields.io/badge/hexo--douban-v1.1.3-blue)
+![](https://img.shields.io/badge/hexo--related--popular--post-v3.0.6-yellowgreen)
+![](https://img.shields.io/badge/hexo--douban-v1.1.3-yellowgreen)
 
 **效果预览**
  - 网站截图：[传送门 1](https://github.com/leafjame/hexo-theme-next5-leaf/blob/master/README.pic.md)

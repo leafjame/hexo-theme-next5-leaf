@@ -1,13 +1,14 @@
 # 基于 Hexo NexT 5 的一款主题
-![](https://img.shields.io/badge/hexo--next-v5.1.4-brightgreen) 
+![](https://img.shields.io/badge/hexo-v3.9.0-orange)
+![](https://img.shields.io/badge/hexo--next-v5.1.4-orange) 
 ![](https://img.shields.io/badge/hexo--abbrink-v2.0.5-brightgreen) 
-![](https://img.shields.io/badge/hexo--neat-1.0.4-brightgreen)
+![](https://img.shields.io/badge/hexo--neat-v1.0.4-brightgreen)
 ![](https://img.shields.io/badge/hexo--wordcount-v6.0.1-blue)
 ![](https://img.shields.io/badge/hexo--symbols--count--time-v0.6.0-blue)
 ![](https://img.shields.io/badge/hexo--generator--sitemap-v1.2.0-green)
-![](https://img.shields.io/badge/hexo--baidu--url--submit-v0.0.6-brightgreen)
-![](https://img.shields.io/badge/hexo--related--popular--post-3.0.6-brightgreen)
-![](https://img.shields.io/badge/hexo--douban-1.1.3-green)
+![](https://img.shields.io/badge/hexo--baidu--url--submit-v0.0.6-green)
+![](https://img.shields.io/badge/hexo--related--popular--post-v3.0.6-blue)
+![](https://img.shields.io/badge/hexo--douban-v1.1.3-blue)
 
 **效果预览**
  - 网站截图：[传送门 1](https://github.com/leafjame/hexo-theme-next5-leaf/blob/master/README.pic.md)

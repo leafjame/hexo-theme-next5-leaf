@@ -12,7 +12,7 @@
 
 **效果预览**
  - 网站截图：[传送门 1](https://github.com/leafjame/hexo-theme-next5-leaf/blob/master/README.pic.md)
- - 站点地址：[传送门 2](https://leafjame.github.io)
+ - 站点地址：[传送门 2](https://www.liaofuzhan.com/)
 
 ## 前言
 
@@ -209,7 +209,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://leafjame.github.io
+url: https://www.liaofuzhan.com
 root: /
 #permalink: :year/:month/:day/:title/ #对搜索引擎是十分不友好的
 #permalink: :title.html
@@ -223,7 +223,7 @@ abbrlink:
 
 baidu_url_submit:
   count: 6 ## 比如3，代表提交最新的三个链接
-  host: https://leafjame.github.io ## 在百度站长平台中注册的域名
+  host: https://www.liaofuzhan.com ## 在百度站长平台中注册的域名
   token: XXXXXX ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
 

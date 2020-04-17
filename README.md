@@ -90,7 +90,7 @@ clone 后一顿魔改，效果自己看着还算可以，在这 share 出来，�
 ...
 </br>
 
-** 2019年底已完成的（v2.1）：** 
+**2019年底已完成的（v2.1）：** 
 <br/>
 - [x] Service Worker：离线访问功能
 - [x] PWA（Progressive Web App）：将网站安装到桌面(PC、移动)

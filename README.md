@@ -1,7 +1,7 @@
 # 基于 Hexo NexT 5 的一款主题
 ![](https://img.shields.io/badge/hexo-v3.9.0-orange)
-![](https://img.shields.io/badge/hexo--next-v5.1.4-orange) 
-![](https://img.shields.io/badge/hexo--abbrink-v2.0.5-brightgreen) 
+![](https://img.shields.io/badge/hexo--next-v5.1.4-orange)
+![](https://img.shields.io/badge/hexo--abbrink-v2.0.5-brightgreen)
 ![](https://img.shields.io/badge/hexo--neat-v1.0.4-brightgreen)
 ![](https://img.shields.io/badge/hexo--wordcount-v6.0.1-blue)
 ![](https://img.shields.io/badge/hexo--symbols--count--time-v0.6.0-blue)
@@ -24,7 +24,7 @@ clone 后一顿魔改，效果自己看着还算可以，在这 share 出来，�
 
   > 以下功能网上一搜一大把，不过还是为大家整理了下本博客的情况，who care（皮一下~）！
 
-**已完成（v1.0）：** 
+**已完成（v1.0）：**
 <br/>
 
 - [x] 主页布局、颜色搭配
@@ -65,7 +65,7 @@ clone 后一顿魔改，效果自己看着还算可以，在这 share 出来，�
 - [x] 页面反馈
 <br/>
 
-**20190925 新增以下功能（v2.0）：** 
+**20190925 新增以下功能（v2.0）：**
 <br/>
 - [x] 手机端样式适配
 - [x] 代码块 Mac panel 特效
@@ -90,7 +90,7 @@ clone 后一顿魔改，效果自己看着还算可以，在这 share 出来，�
 ...
 </br>
 
-**进行中（v2.1）：** 
+**进行中（v2.1）：**
 <br/>
 - [ ] Service Worker：离线访问功能
 - [ ] PWA（Progressive Web App）：将网站安装到桌面(PC、移动)
@@ -181,15 +181,15 @@ clone 后一顿魔改，效果自己看着还算可以，在这 share 出来，�
 - hexo 站点配置文件 _config.yml
 
   按需配置 abbrlink、highlight、deploy、douban、hexo-neat 等。
-  
+
   > ⚠️ 注意：部分功能需注册后方可使用。
-  
+
 ## 部署
 
 &emsp;&emsp;控制台 `hexo clean && hexo g && hexo s` 三连，浏览器输入 `http://localhost:4000/` 即可看到效果！
 
 ## 最后
-   
+
 &emsp;&emsp;附上完整版**站点配置文件**，供大家参考 &#x261f;&#x261f;
 
 ```js
@@ -257,7 +257,7 @@ highlight:
   line_number: true
   auto_detect: true
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -266,7 +266,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -303,7 +303,7 @@ sitemap:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repository: 
+  repository:
             github: https://github.com/leafjame/leafjame.github.io.git
             gitee: https://gitee.com/leafjame/leafjame.git
   branch: master
@@ -357,7 +357,7 @@ neat_js:
   - '**/waifu-tips.js'
   - '**/iframe.js'
   - '**/fireworks.js'
-  
+
 # https://github.com/mythsman/hexo-douban
 douban:
   user: your_id

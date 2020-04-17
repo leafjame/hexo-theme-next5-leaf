@@ -100,8 +100,8 @@
     .tagbubble{
         width: 300px;
         min-width: 0px;
-        margin-top: 175px;
-        margin-left: 10px;
+        margin-top: 160px;
+       // margin-left: 10px;
     }
     .tagbubble a {
       font-size: 13px;

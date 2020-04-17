@@ -9,6 +9,59 @@
   //margin-bottom: 15px;
 }
 
+/*网站底部订阅图标*/
+.subscribe-box {
+  position: absolute;
+  bottom: 45px;
+  left: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,.35);
+  animation: heartAnimate 2s ease-in-out infinite;
+}
+.subscribe-menu {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  cursor: url(/images/pointer.cur),auto;
+  background: url(/images/wechat.svg);
+  background-size: 24px 24px;
+}
+.subscribe-hover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.35);
+  background: url(https://s2.ax1x.com/2019/11/02/KLhDeA.th.jpg);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  transition: all .35s ease-in-out;
+  z-index: 1024;
+  opacity: 0;
+}
+.subscribe-description {
+  opacity: 0;
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+  right: 5%;
+  font-size: 12px;
+  transition: all .35s cubic-bezier(1,0,0,1);
+}
+.subscribe-menu:hover .subscribe-hover {
+  bottom: 24px;
+  left: 24px;
+  height: 140px;
+  width: 150px;
+  opacity: 1
+}
+.subscribe-menu:hover .subscribe-description {
+  opacity: 1
+}
+
 /*菜单*/
 .menu-item:hover{
   transform: scale(1.1);
@@ -20,6 +73,22 @@
 .my-links-of-blogroll-li:hover{
   transform: scale(1.1);
   box-shadow: 10px 10px 15px 2px rgba(0,0,0,.12), 0 0 6px 0 rgba(104, 104, 105, 0.1);
+  /* 动画效果 */
+  color: rgba(0,0,0,0.1); /* transparent IE 不支持 */
+  //-webkit-background-clip: text;
+  animation: hue 1.5s linear infinite;
+  background-image: linear-gradient(
+    to right,
+    #fffed4,
+    #fffede,
+    #fdffe2,
+    #f7ffec,
+    #ecfaf3,
+    #f1fffd,
+    #fafbff,
+    #f7fffc,
+    #fffee4
+  );
 }
 
 /* 排行榜 */
@@ -36,6 +105,22 @@
     //margin-left: 18px;
   }
   //display:flex;
+  /* 动画效果 */
+  //-webkit-background-clip: text;
+  color: rgba(0,0,0,0.1); /* transparent IE 不支持 */
+  animation: hue 1.5s linear infinite;
+  background-image: linear-gradient(
+    to right,
+    #fffed4,
+    #fffede,
+    #fdffe2,
+    #f7ffec,
+    #ecfaf3,
+    #f1fffd,
+    #fafbff,
+    #f7fffc,
+    #fffee4
+  );
 }
 
 /*归档页样式优化 began*/
@@ -93,6 +178,22 @@ a.my-post-title-link:before{
     margin-left: 18px;
   }
   //display:flex;
+  /* 动画效果 */
+  color: rgba(0,0,0,0.1); /* transparent IE 不支持 */
+  //-webkit-background-clip: text;
+  animation: hue 2s linear infinite;
+  background-image: linear-gradient(
+    to right,
+    #fffed4,
+    #fffede,
+    #fdffe2,
+    #f7ffec,
+    #ecfaf3,
+    #f1fffd,
+    #fafbff,
+    #f7fffc,
+    #fffee4
+  );
 }
 a.my-post-title-link{
   text-decoration: none;
@@ -283,6 +384,10 @@ p {
   padding-bottom:4px;
 }
 
+.posts-expand .post-body .fancybox img {
+  margin: 10px auto 10px;
+}
+
 /* 一到六级标题设置 */
 .posts-expand .post-body h1,
 .posts-expand .post-body h2,
@@ -298,8 +403,8 @@ p {
 
 .posts-expand .post-body ul li{
   margin-bottom: 10px;
-  //list-style: none;
-  list-style: disc;
+  list-style: none;
+  //list-style: disc;
   color: #000;
   font-size: 15px;
   //list-style: disc;
@@ -312,6 +417,7 @@ p {
 }
 
 //自定义回到顶部样式
+/* 隐藏返回顶部猫，使用魔方替代
 .back-to-top {
   //right: 60px;
   width: 70px;  //图片素材宽度
@@ -329,6 +435,7 @@ p {
     top: 100vh < (900px + 200px) ? calc( 100vh - 900px - 200px ) : 0px;
   }
 }
+*/
 
 //代码块复制按钮
 .highlight{
@@ -494,7 +601,12 @@ summary{
 details{
   margin-left: 20px;
 }
+/*箭头颜色*/
+details summary::-webkit-details-marker {
+  color: #4185f4;
+}
 details .popular-posts{
+  //list-style: disc;
   +mobile() {
       margin: 5px -12px;
   }
@@ -552,8 +664,24 @@ ul.popular-posts .popular-posts-item .popular-posts-title a {
 .card:hover {
   transform: scale(1.1);
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.04);
+  /* 动画效果 */
+  color: rgba(0,0,0,0.1); /* transparent IE 不支持 */
+  //-webkit-background-clip: text;
+  animation: hue 1.5s linear infinite;
+  background-image: linear-gradient(
+    to right,
+    #fffed4,
+    #fffede,
+    #fdffe2,
+    #f7ffec,
+    #ecfaf3,
+    #f1fffd,
+    #fafbff,
+    #f7fffc,
+    #fffee4
+  );
 }
-.card a {
+.card a, .card a:hover {
   border:none;
 }
 .card .ava {
@@ -631,9 +759,7 @@ span.focus-links:hover{
 .header {
   //background: url("/images/header-bk.jpg");
 }
-.site-meta {
-  float: none;
-}
+
 .menu {
   float: none;
 }
@@ -646,21 +772,90 @@ span.focus-links:hover{
   color: rgb(15, 46, 65);
   border-radius: 4px;
 }
-.site-meta {
-  margin-left: 0px;
-  text-align: center;
+
+/* 网站标题 炫彩效果1 */
+.site-title{
+  //font-size: 17vw;
+  //color: white;
+  //font-family: fantasy;
+  //font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    orangered,
+    orange,
+    gold,
+    lightgreen,
+    cyan,
+    dodgerblue,
+    mediumpurple,
+    hotpink,
+    orangered
+  );
+  /*注意颜色得始终要相同,不然就会有突变颜色线条,影响视觉*/
+  background-size: 110vw;
+  //background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(0,0,0,0.1); /* transparent IE 不支持 */
+  animation: sliding 30s linear infinite;
+}
+@keyframes sliding{
+  to{
+    background-position:  -2000vw;
+  }
+}
+
+/* 网站副标题 炫彩效果2 */
+.site-meta, /* 移动端炫动效果 */
+.site-subtitle {
+  //display: inline-block;
+  //position: relative;
+  //font-weight: 500;
+  //font-size: 14px;
+  //font-family: fantasy;
+  font-family: 'Apple Chancery', fantasy, 'Comic Sans MS', sans-serif; // Luminari
+  letter-spacing: 2px;
   +mobile(){
-   // padding: 10px 0;
+    font-size: 12px;
+  }
+  color: rgba(0,0,0,0.1); /* transparent IE 不支持 */
+  animation: hue 1.5s linear infinite;
+  background-image: linear-gradient(to right bottom, rgb(255,0,0), rgb(255,128,0), rgb(255,255,0), rgb(0,255,0), rgb(0,255,128), rgb(0,255,255), rgb(0,128,255), rgb(0,0,255), rgb(128,0,255), rgb(255,0,255), rgb(255,0,128));
+  -webkit-background-clip: text;
+}
+@keyframes hue {
+  from {
+      filter: hue-rotate(0);
+  }
+  to {
+      filter: hue-rotate(-360deg);
+  }
+}
+
+.site-meta{
+  //float: none;
+  //margin-left: 0px;
+  //text-align: center;
+  //background: #aececb
+  background: #ecf9f8;
+  +mobile(){
+    padding: 10px 0;
     background-image: linear-gradient(90deg,#f79533 0,#f37055 15%,#ef4e7b 30%,#a166ab 44%,#5073b8 58%,#1098ad 72%,#07b39b 86%,#6dba82 100%)!important;
   }
 }
-.site-meta{
-  background: #aececb
-}
 .site-meta .site-title {
-  font-size: 28px;
-  font-family: 'Comic Sans MS', sans-serif;
-  color: #fff;
+  //font-size: 28px;
+  //font-family: 'Comic Sans MS', sans-serif; /* fantasy */
+  //color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Zapfino, 'Comic Sans MS', sans-serif;
+  letter-spacing: 5px;
+  margin: 5px 0px 15px 0;
+  +mobile(){
+    margin: 5px 0px 0px 0px;
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
 }
 //首页尾部样式
 .footer {
@@ -672,21 +867,59 @@ span.focus-links:hover{
   text-align: center;
   color: #4c618f;
 }
+
+/* 尾部不蒜子访客统计 */
+.site-uv
+{
+  margin-right: -13px;
+  display: inline; /* safari 不换行*/
+  &::after {
+    content: "";
+    //padding-left: 10px;
+  }
+}
+.site-uv,
+.site-pv,
+.page-pv {
+  display: inline; /*百度浏览器不换行*/
+}
+//修改不蒜子数据颜色
+.busuanzi-value {
+  color: #1890ff;
+}
+
 //侧边栏信息样式修改
 .site-author-name {
   margin: 18px 0 0;
   color: #090909;
-  font-family: 'Comic Sans MS', sans-serif;
+  //font-family: 'Comic Sans MS', sans-serif;
+}
+.site-description{
+  margin-top: 10px;
+  font-size: 14px;
 }
 .links-of-blogroll {
   font-size: 13px;
-  margin-bottom: 22px;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
-
 .links-of-author {
   margin-top: 10px;
-  //margin-bottom: 58px;
+  //margin-left: 8px;
 }
+.links-of-author-item{
+  //margin: 5px 0 0;
+  //text-align: left;
+  //margin-left: 10px;
+  //width: 35%;
+  //margin-left: 10px
+  //width: 10%;
+  padding: 0 1px;
+}
+.links-of-author-item a{
+  padding: 0 1px;
+}
+
 .site-overview {//左侧socia标签居中
   text-align: center;
 }
@@ -708,8 +941,10 @@ span.focus-links:hover{
 }
 .site-state-item {
   display: inline-block;
-  padding: 8px 18px;
-  border-left: 1px solid #649ab6;
+  //padding: 5px 15px;
+  //border-left: 1px solid #649ab6;
+  padding: 1px 15px;
+  border-left: 1px solid #649ab659;
 }
 .sidebar-nav .sidebar-nav-active {
   color: #649ab6;
@@ -734,6 +969,34 @@ span.focus-links:hover{
 }
 a {
   border-bottom: none;
+}
+
+/* 首页文章图片 */
+.index_img_class{
+  width: 100%;
+  height: 450px;
+  +mobile(){
+    height: 190px;
+  }
+}
+
+/* 文章首字下沉、大号字体效果 */
+.post-body>p:first-child::first-letter{
+  float: left;
+  //height: 32px;
+  margin-top: 14px;
+  margin-right: 6px;
+  color: #555;
+  font-size: 42px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 400;
+  +mobile(){
+    margin-top: 10px;
+    margin-right: 4px;
+    font-size: 26px;
+    line-height: 20px;
+  }
 }
 
 //首页阅读全文样式
@@ -824,7 +1087,8 @@ a {
 /* 评论列表边框*/
 .valine .vlist .vcard {
   border-radius: 8px;
-  border: 1px solid rgba(128,128,128,.49);
+  //border: 1px solid rgba(128,128,128,.49);
+  border: 1px solid #4aeb877d;
 }
 //.valine .vlist .vcard .vcomment-body {
 //  padding: 2em .5em 2em;
@@ -853,8 +1117,10 @@ a {
     margin-left: 5px;
     float: none !important;
   }
+
   //.menu-item{
-  //  display: inline;
+  //  //display: inline;
+  //  width: 14%;
   //}
 
   ////不显示站点地图li
@@ -876,7 +1142,7 @@ a {
     right: 24px;
     //三角形
     //width:0; height:0; border:10px solid; border-color:#aececb #f5f7f9 #f5f7f9 #f5f7f9;
-}
+  }
 
   blockquote{// 手机端>符号表示的内容样式
     //padding: 4px 10px;
@@ -963,6 +1229,7 @@ a {
   }
   .posts-expand .post-body ul li{
     font-size: 13px;
+    color: #5e6d82;
     //margin-bottom: 0px !important;
   }
   .posts-expand .post-body a {
@@ -1036,9 +1303,9 @@ a {
     font-size: .73rem
     margin: 2em auto 0
   }
-  .my_post_copyright p{
-    font-size: 13px;
-    margin: 5px;
+  .my_post_copyright p {
+    font-size: 12px;
+    margin: 3px;
     line-height: 1.2em;
     padding-bottom: 0.5em;
   }
@@ -1052,9 +1319,6 @@ a {
   }
   .posts-expand .post-body h1 {
     padding-top: 20px;
-  }
-  .post-button {
-    text-align: center;
   }
   .posts-expand .post-body h2,
   .posts-expand .post-body h3 {
@@ -1178,7 +1442,8 @@ div#comments.comments.v{
   /*TopX适应手机屏幕设置*/
   #top p{
     font-size: 12px;
-    display: inline-block;//不换行
+    /*display: inline-block;*///换行
+    display: block;//换行
   }
   .post-body .note{//提示条
     margin: 10px auto;

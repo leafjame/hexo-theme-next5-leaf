@@ -165,11 +165,11 @@
           {% endif %}
           <!--近期文章版块 end-->
 
-          {% if theme.diy_time.clock %}
+          {% if theme.diy_time.clock.enable %}
               <!-- canvas粒子时钟 -->
               {% include '../_custom/clock.swig' %}
           {% endif %}
-          {% if theme.diy_time.runtime %}
+          {% if theme.diy_time.runtime.enable %}
               <!-- 网站运行时间 -->
               {% include '../_custom/runtime.swig' %}
           {% endif %}

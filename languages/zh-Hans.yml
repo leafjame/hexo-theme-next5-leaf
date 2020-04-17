@@ -17,6 +17,7 @@ menu:
   search: 搜索
   schedule: 日程表
   xiaohutong: 胡同
+  life: 生活
   sitemap: 站点地图
   commonweal: 公益404
   links: 友链
@@ -52,6 +53,9 @@ page:
 footer:
   powered: "由 %s 强力驱动"
   theme: 主题
+  wait: 我已在此等候你
+  total_views: "历经 %s 次回眸才与你相遇"
+  total_visitors: "我的第 %s 位朋友，"
 
 counter:
   tag_cloud:

@@ -95,7 +95,7 @@
          words.push(category[i]);
          words.push('♠');
      }
-     words.push('💕');
+     // words.push('💕');
 
      var dom = {
          love: document.querySelector('.categorylove')

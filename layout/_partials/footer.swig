@@ -6,8 +6,9 @@
   <span class="with-love">
        <i class="fa fa-{{ theme.footer.icon }}"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright || config.author }}</span>
-
+  <!--
+    <span class="author" itemprop="copyrightHolder"> &nbsp;{{ theme.footer.copyright || config.author }}</span>
+  -->
   {% if theme.post_wordcount.totalcount %}
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
@@ -21,8 +22,6 @@
   #}</span>
   {% endif %}
 </div>
-
-<!--
 
 {% if theme.footer.powered %}
   <div class="powered-by">{#
@@ -49,9 +48,18 @@
 #}</div>
 {% endif %}
 
--->
+{% if not theme.post_wordcount.totalcount %}
+  <div class="theme-info2">
+    <span class="post-count"> <i class="fa fa-area-chart"></i>&nbsp;{{ totalcount(site) }} &nbsp;|&nbsp; Since 8/7 七夕</span>
+  </div>
+{% endif %}
 
-<div class="theme-info">
-  <div class="powered-by"></div>
-  <span class="post-count">全站共{{ totalcount(site) }}字 &nbsp;|&nbsp; Since 2019/8/7 七夕</span>
-</div>
+{% if theme.web_subscribe.enable %}
+  <div class="subscribe-box">
+    <div class="subscribe-menu">
+      <div class="subscribe-hover">
+        <div class="subscribe-description">微信扫一扫，关注公众号</div>
+      </div>
+    </div>
+  </div>
+{% endif %}

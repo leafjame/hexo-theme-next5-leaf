@@ -30,7 +30,7 @@
     {% if theme.vendors.pace_css %}
       {% set pace_css_uri = theme.vendors.pace_css %}
     {% endif %}
-  <script src="{{ pace_js_uri }}"></script>
+  <script async src="{{ pace_js_uri }}"></script>
   <link href="{{ pace_css_uri }}" rel="stylesheet">
 {% endif %}
 

@@ -5,7 +5,8 @@
 
     <div id="links">
         <style>
-            /* 在custom.styl中定义
+            /* 在 custom.styl 中定义 */
+            /*
             #links{
                margin-top: 5rem;
             }
@@ -115,7 +116,7 @@
                 background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
                 margin: inherit;
                 }
-            /*
+            */
         </style>
         <div class="links-content">
             <div class="link-navigation">
@@ -125,11 +126,17 @@
                     <div class="card">
                         <img class="ava" src="{{ link.avatar }}"/>
                         <div class="card-header">
-                        <div><a href="{{ link.site }}" target="_blank"> {{ link.nickname }}</a> <a href="{{ link.site }}" target="_blank"
-
-
-                        ><span class="focus-links">关注</span></a></div>
-                        <div class="info">{{ link.info }}</div>
+                           <div>
+                              <a href="{{ link.site }}" target="_blank"> {{ link.nickname }}</a>
+                              <a href="{{ link.site }}" target="_blank">
+                                <span class="focus-links">
+                                  <i class="fa fa-plus" aria-hidden="true">
+                                    &nbsp;关注
+                                  </i>
+                                </span>
+                              </a>
+                           </div>
+                           <div class="info">{{ link.info }}</div>
                         </div>
                     </div>
 

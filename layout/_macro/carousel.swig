@@ -1,6 +1,12 @@
 {% if theme.carousel.enable %}
+
+<!--
 <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+-->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap.min.js@3.3.5/bootstrap.min.js"></script>
 
 <style type="text/css">
 
@@ -12,9 +18,14 @@
 }
 
 .right-siders{
-   border-radius: 10px;
-   /*margin-top: 5px;*/
-   margin-bottom: 5px;
+   border-radius: 5px;
+   /*margin-top: 5px;
+   margin-bottom: 10px;*/
+}
+
+.my-carousel{
+    /*height: 10%;*/
+    margin-bottom: 12px;
 }
 
 .my-carousel:hover{
@@ -26,19 +37,19 @@
 }
 
 @media (max-width: 767px){
-   .rights{
-      display: none;
-   }
-   .carousel{
-      width: 100% !important;
-      height: 100% !important;
-   }
-   .slide{
-      width: 100% !important;
-      height: 100% !important;
-   }
-	
-  .carousel-control .glyphicon-chevron-left,
+	.rights{
+		display: none;
+	}
+	.carousel{
+		width: 100% !important;
+		height: 100% !important;
+	}
+	.slide{
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	.carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-prev,
   .carousel-control .icon-next {
@@ -238,8 +249,9 @@
 }
 
 .carousel-indicators {
+  opacity: 0.5;
   position: absolute;
-  bottom: 2px;
+  bottom: -15px;
   left: 50%;
   z-index: 15;
   width: 60%;
@@ -303,12 +315,12 @@
     padding-bottom: 30px;
   }
   .carousel-indicators {
-    bottom: -10px;
+    bottom: -20px;
   }
 }
 </style>
 
-<div width="100%" height="320px" style="border: 0px; overflow: hidden; border-radius: 10px; margin-bottom: 25px;" scrolling="no">
+<div width="100%" height="24%" style="border: 0px; overflow: hidden; border-radius: 10px; margin-bottom: 25px;" scrolling="no">
 
 	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3500" style="float:left">
 
@@ -322,7 +334,7 @@
       </ol>
 
       <!-- 轮播（Carousel）项目 -->
-      <div class="carousel-inner" style="height: 280px; border-radius: 10px; width: 100%;">
+      <div class="carousel-inner" style="height: 24%; border-radius: 10px; width: 100%;">
        {% set act = 0 %}
        {% for item in theme.carousel.item %}
           {% if act===0 %}
@@ -349,37 +361,44 @@
 
 	  </div>
 
-		<div  class="rights" style="width: 30%; height: 290px; margin-right: 0px;margin-left: 20px;float: left;">
-  	   <!-- 天气插件 -->
-       <iframe width="300px" scrolling="no" height="50px" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&id=12&color=%23&bdc=%23&icon=1&py=beijing&num=2&site=12"></iframe>
+	<div  class="rights" style="width: 30%; height: 24%; margin-right: 15px;margin-left: 0px;float: right;">
 
-  	   <!-- r热门排行 -->
+  	   <!-- 天气插件 -->
+  	   <!-- 会有http的链接
+       <iframe width="300px" scrolling="no" height="50px" frameborder="0" allowtransparency="true" src="https://i.tianqi.com/index.php?c=code&id=12&color=%23&bdc=%23&icon=1&py=beijing&num=2&site=12"></iframe>
+       -->
+
+       <!-- https://tianqi.2345.com/plugin/setting.htm -->
+       <!-- <iframe allowtransparency="true" frameborder="0" width="290" height="75" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=2&z=2&t=0&v=0&d=2&bd=0&k=000000&f=&ltf=009944&htf=cc0000&q=1&e=1&a=1&c=54511&w=290&h=75&align=left"></iframe> -->
+       <iframe allowtransparency="true" frameborder="0" width="300" height="55" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=2&z=3&t=1&v=2&d=1&bd=0&k=000000&f=&ltf=009944&htf=cc0000&q=1&e=1&a=1&c=54511&w=300&h=55&align=left"></iframe>
+
+  	   <!-- 热门排行 -->
   	   <div class="my-carousel">
-         <a href="https://leafjame.github.io/top/" target="_blank">
+         <a href="https://www.liaofuzhan.com/top/" target="_blank">
             <img class="right-siders nofancybox" src="/images/hot.png" width="100%"/>
          </a>
   	   </div>
 
   	   <!-- 时光留影 -->
   	   <div class="my-carousel">
-         <a href="https://leafjame.github.io/photos/" target="_blank">
+         <a href="https://www.liaofuzhan.com/photos/" target="_blank">
            <img class="right-siders nofancybox" src="/images/time.png"/>
          </a>
   	   </div>
 
-      <!-- 推荐阅读 -->
-      <div class="my-carousel">
-        <a href="https://leafjame.github.io/books/" target="_blank">
+  	  <!-- 推荐阅读 -->
+  	  <div class="my-carousel">
+        <a href="https://www.liaofuzhan.com/books/" target="_blank">
           <img class="right-siders nofancybox" src="/images/read.png"/>
         </a>
-      </div>
+  	  </div>
 
       <!-- 订阅本站 -->
       <div class="my-carousel">
-         <a href="https://mailchi.mp/e92415d27722/leaf" target="_blank">
-           <img class="right-siders nofancybox" src="/images/subscribe.png"/>
-         </a>
-      </div>
+        <a href="https://mailchi.mp/e92415d27722/leaf" target="_blank">
+          <img class="right-siders nofancybox" src="/images/subscribe.png"/>
+        </a>
+     </div>
 
    </div>
 

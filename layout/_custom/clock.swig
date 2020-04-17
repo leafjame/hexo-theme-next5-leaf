@@ -4,7 +4,7 @@
 <div id="">
   <canvas id="canvas" style="width:60%;">
 </div>
-<script>
+<script async>
 (function(){
   var WINDOW_WIDTH = 820;
   		var WINDOW_HEIGHT = 250;

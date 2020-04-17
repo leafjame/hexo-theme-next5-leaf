@@ -9,13 +9,18 @@
 <head>
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
+  {% include '_third-party/analytics/index.swig' %}
 
-  {% if theme.tagcloud.type == 'bubble' %}
+  {% if theme.tagcloud.type == 'bubble' || theme.category_style.type == 'bubble' %}
       <!-- 球型气泡标签云 -->
       <script type="text/javascript" src="/js/src/bubble.js"></script>
   {% endif %}
 
-  {% include '_third-party/analytics/index.swig' %}
+  {% if theme.haoyuePlayer.enable %}
+      <!-- haoyuePlayer 播放器，移动端大小适配-->
+      <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+  {% endif %}
+
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
@@ -65,7 +70,8 @@
       </div>
     </footer>
 
-    {% if not theme.sidebar.b2t %}
+    {# {% if not theme.sidebar.b2t %} #}
+    {% if theme.sidebar.b2t %}
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
         {% if theme.sidebar.scrollpercent %}
@@ -121,23 +127,41 @@
       <script type="text/javascript" src="/dist/music.js"></script>
   {% endif %}
 
+  {% if theme.badApplePlayer.enable %}
+      <!-- badApplePlayer 播放器 -->
+      <!-- Your XlchPlayerKey -->
+      <script>XlchKey="{{theme.badApplePlayer.XlchKey}}";</script>
+      <!-- font-awesome 4.2.0 -->
+      <!--
+      <link href="https://lib.baomitu.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      -->
+      <!-- JQuery-mousewheel 3.1.9 -->
+      <script async src="https://lib.baomitu.com/jquery-mousewheel/3.1.9/jquery.mousewheel.min.js"></script>
+      <!-- Scrollbar -->
+      <script async src="https://static.https.badapple.top/BadApplePlayer/js/scrollbar.js"></script>
+      <!-- BadApplePlayer -->
+      <script async src="https://static.https.badapple.top/BadApplePlayer/Player.js"></script>
+  {% endif %}
+
   <!-- 代码块复制功能 -->
-  <script type="text/javascript" src="/js/src/clipboard.min.js"></script>
-  <script type="text/javascript" src="/js/src/clipboard-use.js"></script>
+  <script async type="text/javascript" src="/js/src/clipboard.min.js"></script>
+  <script async type="text/javascript" src="/js/src/clipboard-use.js"></script>
 
   <!--share.js-->
-  <link rel="stylesheet" href="/sharejs/css/share.min.css">
-  <script src="/sharejs/js/social-share.min.js"></script>
+  <link async rel="stylesheet" href="/sharejs/css/share.min.css">
+  <script async src="/sharejs/js/social-share.min.js"></script>
 
   <!-- 模仿知乎卡片样式链接、崩溃欺骗特效 -->
-  <script type="text/javascript" src="/js/src/linkcard.js"></script>
+  <script async type="text/javascript" src="/js/src/linkcard.js"></script>
 
   <!--崩溃欺骗 放在js文件最后-->
   <!--
   <script type="text/javascript" src="/js/src/crash_cheat.js"></script>
   -->
 
-
+ {% if theme.haoyuePlayer.enable %}
+    <script src="https://player.lmih.cn/player/js/player.js" id="myhk" key="{{theme.haoyuePlayer.key}}" m="1"></script>
+ {% endif %}
 
 </body>
 </html>

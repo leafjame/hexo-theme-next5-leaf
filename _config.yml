@@ -1,3 +1,10 @@
+# ===============================================================
+# ========================= ATTENTION! ==========================
+# ===============================================================
+# NexT repository is moving here: https://github.com/theme-next
+# ===============================================================
+# It's rebase to v6.0.0 and future maintenance will resume there
+# ===============================================================
 
 # ---------------------------------------------------------------
 # Theme Core Configuration Settings
@@ -28,7 +35,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo个人博客,NexT美化优化,Leaf,Github Pages,博客相册"
+keywords: "Hexo个人博客,NexT美化优化,哈林摇,Mac Panel特效,Leaf,北宸,Java程序员,北京,旅行,摄像,Github Pages,搭建教程,demo,博客相册,文章排行榜,网站SEO"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -49,13 +56,23 @@ footer:
   copyright:
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
-  powered: true
+  powered: false
 
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
+    enable: false
     # Version info of NexT after scheme info (vX.X.X).
-    version: true
+    version: false
+
+  # 网站底部运行时间
+  runtime:
+    enable: true
+    birthday: "08/07/2019 20:00:00"
+    color: "#1890ff"
+  # 网站底部uv pv
+  diy_visit:
+    enable: true
+
   # -------------------------------------------------------------
   # Any custom text can be defined here.
   #custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
@@ -92,13 +109,14 @@ menu:
   archives: /archives/ || archive
   categories: /categories/ || th
   tags: /tags/ || tags
-  movies: /movies/ || film
+  life: /life/ || apple
+#  movies: /movies/ || film
 #  xiaohutong: /xiaohutong || map
 #  sitemap: /sitemap.xml || sitemap
-  about: /about/ || user
   #schedule: /schedule/ || calendar
   #commonweal: /404/ || heartbeat
   links: /links/ || link
+  about: /about/ || user
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -138,16 +156,16 @@ scheme: Pisces
   #Skype: skype:yourname?call|chat || skype
 
 social:
-  FB Page: https://www.facebook.com/jame.leaf.94
-  Witter: https://twitter.com/Leafjame || twitter
-  E-Mail: mailto:leaf793458585@gmail.com || envelope
   GitHub: https://github.com/leafjame || github
+  E-Mail: mailto:leaf793458585@gmail.com || envelope
+  Facebook: https://www.facebook.com/jame.leaf.94 || facebook
+  Witter: https://twitter.com/Leafjame || twitter
   YouTube: https://youtube.com/channel/UCtzIJK9eLCWLQF13KpZE-0w  || youtube
   Jianshu: https://www.jianshu.com/u/3b74c7b81348 || instagram
 
 social_icons:
   enable: true
-  icons_only: false
+  icons_only: true
   transition: false
 
 # Blog rolls
@@ -167,7 +185,6 @@ mylinks:
   avatar: https://leafjame.github.io/images/beichen.png
   site: https://leafjame.github.io
   info: 因心造境，风云由我！
-
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -252,7 +269,7 @@ post_wordcount:
   item_text: false
   wordcount: true
   min2read: false
-  totalcount: false
+  totalcount: true
   separated_meta: false
 
 # Wechat Subscriber
@@ -273,7 +290,7 @@ alipay: /images/alipay.jpg
 
 # Declare license on posts
 post_copyright:
-  enable: 
+  enable: false
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -405,11 +422,11 @@ changyan:
 # more info please open https://valine.js.org
 valine:
   enable: false
-  appid: your_appid  #<app_id> #国际版
-  appkey: your_appkey  #<app_key>
+  appid: XXXXXXXX # your leancloud application appid
+  appkey: XXXXXXXX # your leancloud application appkey
   notify: false # mail notifier: https://valine.js.org/notify.html # 20190903使用Valine-Admin：参考 https://deserts.io/valine-admin-document/
   verify: false # Verification code //使用Valine-Admin
-  placeholder: '&#x270d;写评论'  # comment box placeholder
+  placeholder: '&#x270d;&nbsp;写评论'  # comment box placeholder
   avatar: mm # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
@@ -422,9 +439,6 @@ valine:
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 #livere_uid: your uid
-
-# 来必力评论 https://www.livere.com/insight/communite
-livere_uid: 
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
@@ -443,14 +457,6 @@ gitment:
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
-gitalk:
-  enable: false
-  githubID: 
-  repo: 
-  ClientID: 
-  ClientSecret: 
-  adminUser: 
-  distractionFreeMode: true
 
 # Baidu Share
 # Available value:
@@ -507,13 +513,14 @@ needmoreshare2:
 google_site_verification: 
 
 # Google Analytics
-#google_analytics:
+google_analytics: 
 
-baidu_site_verification:  
+# https://liaofuzhan.netlify.com 站点验证
+baidu_site_verification: 
 
-qihu_site_verification:  
+qihu_site_verification: 
 
-sogou_site_verification:  
+sogou_site_verification: 
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -573,9 +580,8 @@ vkontakte_api:
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-#  id:     #<app_id>
-  id: your_id
-  color:  ff9800
+  id:     #<app_id>
+  color: 
 # ---------------------------------------------------------------
 
 # Show number of visitors to each article.
@@ -583,8 +589,8 @@ rating:
 # 安全问题：https://leaferx.online/2018/02/11/lc-security/
 leancloud_visitors:
   enable: false
-  app_id: your_appid #<app_id> #国际版
-  app_key: your_appkey #<app_key>
+  app_id: XXXXXXXX #<app_id>
+  app_key: XXXXXXXX #<app_key>
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
@@ -596,9 +602,9 @@ leancloud_visitors:
 # visit https://firebase.google.com/docs/firestore/ to get more information about firestore
 firestore:
   enable: false
-  collection: articles #required, a string collection name to access firestore database
-  apiKey: your_apiKey #required
-  projectId: your_projectId #required
+  collection: XXXXXXXX #required, a string collection name to access firestore database
+  apiKey: XXXXXXXX #required
+  projectId: XXXXXXXX #required
   bluebird: false #enable this if you want to include bluebird 3.5.1(core version) Promise polyfill
 
 # Show PV/UV of the website/page with busuanzi.
@@ -608,14 +614,16 @@ busuanzi_count:
   enable: true
   # custom uv span for the whole site
   site_uv: true
-  site_uv_header: <i class="fa fa-user"></i>访问人数
-  site_uv_footer: 人次
+#  site_uv_header: <i class="fa fa-user"></i> 访客
+  site_uv_header: <i class="fa fa-user"></i>
+  site_uv_footer:
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i>总访问量
-  site_pv_footer: 次
+#  site_pv_header: <i class="fa fa-eye"></i> 访问量
+  site_pv_header: <i class="fa fa-eye"></i>
+  site_pv_footer:
   # custom pv span for one page only
-  page_pv: false #使用firestore统计pv及排行
+  page_pv: false #使用leancloud(firestore)统计pv及排行
   page_pv_header: <i class="fa fa-file-o"></i> 浏览
   page_pv_footer: 次
 
@@ -711,7 +719,7 @@ tabs:
 # Use velocity to animate everything.
 motion:
   enable: true
-  async: false
+  async: true
   transition:
     # Transition variants:
     # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
@@ -723,9 +731,9 @@ motion:
     post_block: flipYIn
     post_header: perspectiveRightIn
     post_body: perspectiveLeftIn
-    coll_header: perspectiveDownIn
+    coll_header: swoopIn
     # Only for Pisces | Gemini.
-    sidebar: perspectiveUpIn
+    sidebar: shrinkIn
 
 # Fancybox
 fancybox: true
@@ -771,8 +779,8 @@ canvas_sphere: false
 # 条状背景线，点击动态变化
 canvas_ribbon:
   enable: true
-  size: 300
-  alpha: 0.6
+  size: 60
+  alpha: 0.1
   zIndex: -1
 
 # 设置CDN加速：http://yearito.cn/posts/hexo-deploy-to-VPS.html
@@ -907,16 +915,40 @@ category_style:
 
 # 侧栏自定义时间
 diy_time:
-  runtime: true #运行时间
-  clock: true # 粒子时钟
+  runtime:
+    enable: false #运行时间
+    birthday: "08/07/2019 20:00:00"
+  clock:
+    enable: true # 粒子时钟
 
 # 看板娘
 live2d:
-  enabled: true
+  enable: true
 
 # aplayer音乐播放器
 aplayer:
+  enable: false
+
+# https://player.lmih.cn/
+haoyuePlayer:
   enable: true
+  key: 158711254641
+
+# 网站右下角旋转魔方
+cube:
+  enable: true
+  type: hollow # mini | hollow
+
+# Console 输出第三方个性化字体
+fig_font:
+  enable: true
+  font: Big Money-ne
+  input_text: Welcome To Leaface
+
+# Console 输出自定义字体
+diy_font:
+  enable: true
+  input_text: Welcome To Leaface
 
 # 谷歌广告
 google_ads:
@@ -928,13 +960,13 @@ google_ads:
 
 # Online contact
 daovoice: false
-daovoice_app_id: yuor_id
+daovoice_app_id: XXXXXXXX
 
 # Tidio online chat
 # see: https://www.tidiochat.com
 tidio:
   enable: false
-  key: yuor_key # Public_Key
+  key: XXXXXXXX # Public_Key
 
 pdf:
   enable: true
@@ -944,8 +976,8 @@ pdf:
 # Hotjar页面反馈
 # see: https://www.hotjar.com/
 hotjar:
-  enable: false
-  siteID: your_id # site ID
+  enable: true
+  siteID: XXXXXXXX # site ID
 
 # 近期文章
 recent_posts_title: 近期文章
@@ -954,6 +986,10 @@ recent_posts: true
 
 #  https://github.com/overtrue/share.js
 share_js: true
+
+# 网站底部订阅按钮
+web_subscribe:
+  enable: true
 
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
 related_posts:
@@ -968,29 +1004,29 @@ related_posts:
     #isImage: false
     #isExcerpt: false
 
-# 主页轮播图
+# 主页轮播图 使用 620x310 的图片
 #Home carousel map, from means link, img means picture
 carousel:
   enable: true
   item: [
     {
-      'link': 'https://leafjame.github.io',
+      'link': 'https://www.liaofuzhan.com/',
       'img': 'https://s2.ax1x.com/2019/10/12/ujKrse.jpg'
     },
     {
+      'link': 'https://www.liaofuzhan.com/posts/507826828.html',
+      'img': 'https://s2.ax1x.com/2020/01/05/lD5NEF.jpg'
+    },
+    {
       'link': 'https://mailchi.mp/e92415d27722/leaf',
-      'img': 'https://s2.ax1x.com/2019/10/24/KNHdCq.jpg'
+      'img': 'https://s2.ax1x.com/2020/02/12/17sVwq.jpg'
     },
     {
       'link': 'https://github.com/leafjame/hexo-theme-next5-leaf',
-      'img': 'https://s2.ax1x.com/2019/10/10/u7DWuV.jpg'
+      'img': 'https://s2.ax1x.com/2020/02/11/1Izt1g.jpg'
     },
     {
-      'link': 'https://leafjame.github.io/photos/',
-      'img': 'https://s2.ax1x.com/2019/10/04/uBEMT0.jpg'
-    },
-    {
-      'link': 'https://leafjame.github.io/tags/Hexo-NexT/',
-      'img': 'https://s2.ax1x.com/2019/09/22/u9HFxA.gif'
+      'link': 'https://www.liaofuzhan.com/photos/',
+      'img': 'https://s2.ax1x.com/2020/02/12/17gpHs.jpg'
     }
   ]

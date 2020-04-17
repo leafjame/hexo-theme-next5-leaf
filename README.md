@@ -95,7 +95,7 @@ clone 后一顿魔改，效果自己看着还算可以，在这 share 出来，�
 **2019-12-31 已完成的（v2.1）：** 
 <br/>
 - [x] Service Worker：离线访问功能
-- [x] PWA（Progressive Web App）：将网站安装到桌面(PC、移动)
+- [x] PWA（Progressive Web App）：将网站安装到桌面(PC、手机)
 - [x] 网站运行时间 DIY
 - [x] 访问量 DIY
 - [x] 文章首字下沉效果
@@ -183,6 +183,8 @@ ing ---->>>>
   "hexo-wordcount": "^6.0.1",  // 字数统计插件
   "webpack-cli": "^3.3.7",  // 装hexo-abbrlink时提示装的，按需下载
   "@webpack-cli/init": "^0.2.2",  // 同上
+  "hexo-service-worker": "^1.0.1", // 离线访问
+  "hexo-pwa": "^0.1.3",   // Progressive Web App，可将网站安装到桌面(PC、手机)
   ```
   > 所装插件信息位于站点根目录的 package.json 文件，核对一下自己是否已经装过。
 
@@ -397,5 +399,42 @@ douban:
     title: '观影系列'
     quote: 'Life was like a box of chocolates, you never know what you’re going to get'
   timeout: 10000 # 爬取数据的超时时间
+
+# https://github.com/lavas-project/hexo-pwa
+# https://developers.google.com/web/fundamentals/web-app-manifest/?utm_source=devtools
+pwa:
+  manifest:
+    path: /manifest.json
+    body:
+      name: Leaface # is used in the app install prompt.
+      short_name: Leaface #  is used on the user's home screen, launcher, or other places where space may be limited
+      description: 北宸的小站
+      icons:
+      - src: https://cdn.jsdelivr.net/gh/leafjame/cdn/img/icon/linkcard.png
+        sizes: 192x192
+        type: image/png
+      - src: https://cdn.jsdelivr.net/gh/leafjame/cdn/img/logo/beichen.png
+        sizes: 512x512
+        type: image/png
+      start_url: /
+      theme_color: '#3367D6' # 2196f3
+      background_color: '#2196f3'
+      display: standalone
+  serviceWorker:
+    path: /sw.js
+    preload:
+      urls:
+      - /
+      posts: 1
+    opts:
+      networkTimeoutSeconds: 5
+    routes:
+    - pattern: !!js/regexp /hm.baidu.com/
+      strategy: networkOnly
+    - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
+      strategy: cacheFirst
+    - pattern: !!js/regexp /\//
+      strategy: networkFirst
+  priority: 10
 
 ```

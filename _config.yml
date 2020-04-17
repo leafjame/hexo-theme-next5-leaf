@@ -1010,23 +1010,23 @@ carousel:
   enable: true
   item: [
     {
-      'link': 'https://www.liaofuzhan.com/',
-      'img': 'https://s2.ax1x.com/2019/10/12/ujKrse.jpg'
+      'link': 'https://leaface.netlify.com',
+      'img': 'https://cdn.jsdelivr.net/gh/leafjame/cdn/img/carousel/knowledge.png'
     },
     {
       'link': 'https://www.liaofuzhan.com/posts/507826828.html',
-      'img': 'https://s2.ax1x.com/2020/01/05/lD5NEF.jpg'
+      'img': 'https://cdn.jsdelivr.net/gh/leafjame/cdn/img/carousel/mobile.png'
     },
     {
       'link': 'https://mailchi.mp/e92415d27722/leaf',
-      'img': 'https://s2.ax1x.com/2020/02/12/17sVwq.jpg'
+      'img': 'https://cdn.jsdelivr.net/gh/leafjame/cdn/img/carousel/subscribe.png'
     },
     {
       'link': 'https://github.com/leafjame/hexo-theme-next5-leaf',
-      'img': 'https://s2.ax1x.com/2020/02/11/1Izt1g.jpg'
+      'img': 'https://cdn.jsdelivr.net/gh/leafjame/cdn/img/carousel/share.png'
     },
     {
       'link': 'https://www.liaofuzhan.com/photos/',
-      'img': 'https://s2.ax1x.com/2020/02/12/17gpHs.jpg'
+      'img': 'https://cdn.jsdelivr.net/gh/leafjame/cdn/img/carousel/photos.png'
     }
   ]

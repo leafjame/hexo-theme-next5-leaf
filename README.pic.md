@@ -22,18 +22,18 @@
                                           佛 祖 保 佑            代 码 无 BUG
 
 
-        $$\                            $$$$$$\  $$\                 $$$$$$$\  $$\
-        $$ |                          $$  __$$\ $  |                $$  __$$\ $$ |
-        $$ |       $$$$$$\   $$$$$$\  $$ /  \__|\_/  $$$$$$$\       $$ |  $$ |$$ | $$$$$$\   $$$$$$\
-        $$ |      $$  __$$\  \____$$\ $$$$\         $$  _____|      $$$$$$$\ |$$ |$$  __$$\ $$  __$$\
-        $$ |      $$$$$$$$ | $$$$$$$ |$$  _|        \$$$$$$\        $$  __$$\ $$ |$$ /  $$ |$$ /  $$ |
-        $$ |      $$   ____|$$  __$$ |$$ |           \____$$\       $$ |  $$ |$$ |$$ |  $$ |$$ |  $$ |
-        $$$$$$$$\ \$$$$$$$\ \$$$$$$$ |$$ |          $$$$$$$  |      $$$$$$$  |$$ |\$$$$$$  |\$$$$$$$ |
-        \________| \_______| \_______|\__|          \_______/       \_______/ \__| \______/  \____$$ |
-                                                                                            $$\   $$ |
-                                                                                            \$$$$$$  |
-                                                                                             \______/
-
+                                                    
+                                $$\                      $$$$$$\                                
+                                $$ |                    $$  __$$\                               
+                                $$ | $$$$$$\   $$$$$$\  $$ /  \__| $$$$$$\   $$$$$$$\  $$$$$$\  
+                                $$ |$$  __$$\  \____$$\ $$$$\      \____$$\ $$  _____|$$  __$$\ 
+                                $$ |$$$$$$$$ | $$$$$$$ |$$  _|     $$$$$$$ |$$ /      $$$$$$$$ |
+                                $$ |$$   ____|$$  __$$ |$$ |      $$  __$$ |$$ |      $$   ____|
+                                $$ |\$$$$$$$\ \$$$$$$$ |$$ |      \$$$$$$$ |\$$$$$$$\ \$$$$$$$\ 
+                                \__| \_______| \_______|\__|       \_______| \_______| \_______|
+                                                                                                
+                                                                                                
+                                                                                                
 
 > 以下是保存的部分网站截图，以备浏览！
 
@@ -81,9 +81,17 @@
 
 ![效果4](https://cdn.jsdelivr.net/gh/leafjame/cdn/img/module/github/10.gif)
 
+### 生活
+
+![效果4](https://cdn.jsdelivr.net/gh/leafjame/cdn/img/module/github/10-1.gif)
+
 ### 友链
 
 ![友链](https://cdn.jsdelivr.net/gh/leafjame/cdn/img/module/github/11.gif)
+
+### 关于
+
+![效果4](https://cdn.jsdelivr.net/gh/leafjame/cdn/img/module/github/11-1.gif)
 
 ### 文章正文
 
@@ -105,11 +113,11 @@
 
 #### 首页 ========>>>>
 
-![ugkUTH.png](https://cdn.jsdelivr.net/gh/leafjame/cdn/img/module/github/16.jpg)
+![ugkUTH.png](https://cdn.jsdelivr.net/gh/leafjame/cdn/img/module/github/16.mp4)
 
 #### 文章正文 ========>>>>
 
-![ugAnjf.png](https://cdn.jsdelivr.net/gh/leafjame/cdn/img/module/github/17.jpg)
+![ugAnjf.png](https://cdn.jsdelivr.net/gh/leafjame/cdn/img/module/github/17.mp4)
 
 ### 其它特效
 
@@ -140,10 +148,6 @@
 ![uxeMBd.gif](https://cdn.jsdelivr.net/gh/leafjame/cdn/img/module/github/23.gif)
 
 ![uxbWZ9.gif](https://cdn.jsdelivr.net/gh/leafjame/cdn/img/module/github/24.gif)
-
-#### 炫彩 logo
-
-![K9NCVA.gif](https://cdn.jsdelivr.net/gh/leafjame/cdn/img/module/github/25.gif)
 
 #### 旋转魔方
 

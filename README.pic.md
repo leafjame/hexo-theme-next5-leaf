@@ -22,21 +22,20 @@
                                           佛 祖 保 佑            代 码 无 BUG
 
 
-                                                    
-                                $$\                      $$$$$$\                                
-                                $$ |                    $$  __$$\                               
-                                $$ | $$$$$$\   $$$$$$\  $$ /  \__| $$$$$$\   $$$$$$$\  $$$$$$\  
-                                $$ |$$  __$$\  \____$$\ $$$$\      \____$$\ $$  _____|$$  __$$\ 
+
+                                $$\                      $$$$$$\
+                                $$ |                    $$  __$$\
+                                $$ | $$$$$$\   $$$$$$\  $$ /  \__| $$$$$$\   $$$$$$$\  $$$$$$\
+                                $$ |$$  __$$\  \____$$\ $$$$\      \____$$\ $$  _____|$$  __$$\
                                 $$ |$$$$$$$$ | $$$$$$$ |$$  _|     $$$$$$$ |$$ /      $$$$$$$$ |
                                 $$ |$$   ____|$$  __$$ |$$ |      $$  __$$ |$$ |      $$   ____|
-                                $$ |\$$$$$$$\ \$$$$$$$ |$$ |      \$$$$$$$ |\$$$$$$$\ \$$$$$$$\ 
+                                $$ |\$$$$$$$\ \$$$$$$$ |$$ |      \$$$$$$$ |\$$$$$$$\ \$$$$$$$\
                                 \__| \_______| \_______|\__|       \_______| \_______| \_______|
-                                                                                                
-                                                                                                
-    
-    
-    
-    
+
+
+
+
+
 
 > 以下是保存的部分网站截图，以备浏览！
 
@@ -116,11 +115,11 @@
 
 #### 首页 ========>>>>
 
-![ugkUTH.png](https://cdn.jsdelivr.net/gh/leafjame/cdn/img/module/github/16.mp4)
+<video controls="controls" preload="none" width="100%" poster="" src="https://cdn.jsdelivr.net/gh/leafjame/cdn/img/module/github/16.mp4" style="max-height:100%;max-width:100%;display:block;margin-left:auto;margin-right:auto" controls="" loop="" preload="meta">您的浏览器暂时无法播放此视频.</video>
 
 #### 文章正文 ========>>>>
 
-![ugAnjf.png](https://cdn.jsdelivr.net/gh/leafjame/cdn/img/module/github/17.mp4)
+<video controls="controls" preload="none" width="100%" poster="" src="https://cdn.jsdelivr.net/gh/leafjame/cdn/img/module/github/17.mp4" style="max-height:100%;max-width:100%;display:block;margin-left:auto;margin-right:auto" controls="" loop="" preload="meta">您的浏览器暂时无法播放此视频.</video>
 
 ### 其它特效
 

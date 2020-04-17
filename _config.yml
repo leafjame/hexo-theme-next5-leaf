@@ -976,7 +976,7 @@ pdf:
 # Hotjar页面反馈
 # see: https://www.hotjar.com/
 hotjar:
-  enable: true
+  enable: false
   siteID: XXXXXXXX # site ID
 
 # 近期文章

@@ -9,6 +9,8 @@
 ![](https://img.shields.io/badge/hexo--baidu--url--submit-v0.0.6-green)
 ![](https://img.shields.io/badge/hexo--related--popular--post-v3.0.6-yellowgreen)
 ![](https://img.shields.io/badge/hexo--douban-v1.1.3-yellowgreen)
+![](https://img.shields.io/badge/hexo--service--worker-v1.0.1-%23e75ea3)
+![](https://img.shields.io/badge/hexo--pwa-v0.1.3-%23e75ea3)
 
 **效果预览**
  - 网站截图：[传送门 1](https://github.com/leafjame/hexo-theme-next5-leaf/blob/master/README.pic.md)
@@ -63,9 +65,10 @@ clone 后一顿魔改，效果自己看着还算可以，在这 share 出来，�
 - [x] 百度分享
 - [x] 评论区打字特效
 - [x] 页面反馈
+- [x] ...
 <br/>
 
-**20190925 新增以下功能（v2.0）：**
+**2019-09-25 新增以下功能（v2.0）：** 
 <br/>
 - [x] 手机端样式适配
 - [x] 代码块 Mac panel 特效
@@ -86,26 +89,51 @@ clone 后一顿魔改，效果自己看着还算可以，在这 share 出来，�
 - [x] canvas 粒子时钟
 - [x] 豆瓣读书、电影
 - [x] 页面其它特效
-
-...
+- [x] ...
 </br>
 
-**进行中（v2.1）：**
+**2019-12-31 已完成的（v2.1）：** 
 <br/>
-- [ ] Service Worker：离线访问功能
-- [ ] PWA（Progressive Web App）：将网站安装到桌面(PC、移动)
-- [ ] 网站运行时间 DIY
-- [ ] 访问量 DIY
-- [ ] 文章首字下沉效果
-- [ ] 绚丽彩虹播放器
-- [ ] 炫彩 logo
-- [ ] 旋转魔方（2种）
-- [ ] 浏览器 Console 个性化输出
-- [ ] 邮件订阅功能
-- [ ] 。。。
-- [ ] 。。。
+- [x] Service Worker：离线访问功能
+- [x] PWA（Progressive Web App）：将网站安装到桌面(PC、手机)
+- [x] 网站运行时间 DIY
+- [x] 访问量 DIY
+- [x] 文章首字下沉效果
+- [x] 炫酷的音乐播放器
+- [x] 炫彩 logo
+- [x] 旋转魔方（2种）
+- [x] 浏览器 Console 个性化输出
+- [x] 邮件订阅功能
+- [x] 更新 Valine 评论表情、样式
+- [x] 更网站左下角扫码订阅
+- [x] 轮播图大屏显示优化
+- [x] 网站公告
+- [x] 其它优化
+- [x] ...
+</br>
 
-...
+**进行中 2020-04-01（v2.2）：** 
+<br/>
+- [ ] 表白界面
+- [ ] 网页镜子
+- [ ] 网页相关（禁用审查元素、右键等功能）
+- [ ] 鼠标右键菜单 DIY
+- [ ] 网页左下角新增联系信息按钮
+- [ ] 新增关注公众号解锁文章的功能
+- [ ] MacPanel 代码块折叠功能
+- [ ] Ribbon 动态背景条纹
+- [ ] 新增明月浩空音乐播放器
+- [ ] 其它优化 
+- [ ] ...
+</br>
+
+ing ---->>>>
+<br/>
+- [ ] PJAX 功能集成 
+- [ ] Fancybox2 升级为最新版 
+- [ ] JS CDN 加速 
+- [ ] ...
+
 </br>
 
 ## 安装
@@ -155,6 +183,8 @@ clone 后一顿魔改，效果自己看着还算可以，在这 share 出来，�
   "hexo-wordcount": "^6.0.1",  // 字数统计插件
   "webpack-cli": "^3.3.7",  // 装hexo-abbrlink时提示装的，按需下载
   "@webpack-cli/init": "^0.2.2",  // 同上
+  "hexo-service-worker": "^1.0.1", // 离线访问
+  "hexo-pwa": "^0.1.3",   // Progressive Web App，可将网站安装到桌面(PC、手机)
   ```
   > 所装插件信息位于站点根目录的 package.json 文件，核对一下自己是否已经装过。
 
@@ -369,5 +399,42 @@ douban:
     title: '观影系列'
     quote: 'Life was like a box of chocolates, you never know what you’re going to get'
   timeout: 10000 # 爬取数据的超时时间
+
+# https://github.com/lavas-project/hexo-pwa
+# https://developers.google.com/web/fundamentals/web-app-manifest/?utm_source=devtools
+pwa:
+  manifest:
+    path: /manifest.json
+    body:
+      name: Leaface # is used in the app install prompt.
+      short_name: Leaface #  is used on the user's home screen, launcher, or other places where space may be limited
+      description: 北宸的小站
+      icons:
+      - src: https://cdn.jsdelivr.net/gh/leafjame/cdn/img/icon/linkcard.png
+        sizes: 192x192
+        type: image/png
+      - src: https://cdn.jsdelivr.net/gh/leafjame/cdn/img/logo/beichen.png
+        sizes: 512x512
+        type: image/png
+      start_url: /
+      theme_color: '#3367D6' # 2196f3
+      background_color: '#2196f3'
+      display: standalone
+  serviceWorker:
+    path: /sw.js
+    preload:
+      urls:
+      - /
+      posts: 1
+    opts:
+      networkTimeoutSeconds: 5
+    routes:
+    - pattern: !!js/regexp /hm.baidu.com/
+      strategy: networkOnly
+    - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
+      strategy: cacheFirst
+    - pattern: !!js/regexp /\//
+      strategy: networkFirst
+  priority: 10
 
 ```

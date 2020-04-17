@@ -937,7 +937,7 @@ haoyuePlayer:
 # 网站右下角旋转魔方
 cube:
   enable: true
-  type: hollow # mini | hollow
+  type: mini # mini | hollow
 
 # Console 输出第三方个性化字体
 fig_font:

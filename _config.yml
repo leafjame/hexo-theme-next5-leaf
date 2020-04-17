@@ -894,7 +894,7 @@ passage_end_tag:
 cursor_effect:
   enabled: true
   # fireworks：礼花 | explosion：爆炸 | love：浮出爱心 | text：浮出文字
-  type: love
+  type: explosion
 
 # typing effect 打字特效
 typing_effect:

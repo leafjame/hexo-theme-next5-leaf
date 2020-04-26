@@ -130,7 +130,7 @@ clone 后一顿魔改，效果自己看着还算可以，在这 share 出来，�
 ing ---->>>>
 <br/>
 - [ ] PJAX 功能集成 
-- [ ] Fancybox2 升级为最新版 
+- [ ] Fancybox2 升级最新版 
 - [ ] header 固定、毛玻璃效果
 - [ ] JS CDN 加速 
 - [ ] ...
